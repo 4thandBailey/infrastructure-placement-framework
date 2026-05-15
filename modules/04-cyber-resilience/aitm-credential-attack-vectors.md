@@ -39,7 +39,7 @@ Adversary-in-the-middle (AiTM) phishing is one of the most operationally dangero
 
 The diagram below maps the full AiTM attack pattern across three color-coded branches: the attack chain (left), the defensive controls that address each phase (right), and the post-compromise remediation sequence (bottom). Use it as a quick reference during incident response or client briefings.
 
-![AiTM phishing attack mind map — three-branch diagram showing credential spray, PowerShell probing, AiTM breach, and persistence on the left; FIDO2 MFA, Token Protection, Safe Links, and Identity Protection on the right; five-step remediation sequence across the bottom.](../../assets/aitm-attack-mind-map.svg)
+![AiTM phishing attack mind map — three-branch diagram showing credential spray, PowerShell probing, AiTM breach, and persistence on the left; FIDO2 MFA, Token Protection, Safe Links, and Identity Protection on the right; five-step remediation sequence across the bottom.](https://raw.githubusercontent.com/4thandBailey/infrastructure-placement-framework/main/assets/aitm-attack-mind-map.svg)
 
 *Figure 1: AiTM phishing attack mind map. Left branch = attack chain (credential spray → PowerShell probing → AiTM breach → persistence). Right branch = defensive controls (FIDO2 MFA, Token Protection, Defender Safe Links/Attachments, Identity Protection). Bottom band = five-step remediation sequence. Color coding: red = attacker actions, green = defensive controls, blue = remediation steps. Derived from a confirmed Microsoft 365 account compromise. All identifying details anonymized.*
 
