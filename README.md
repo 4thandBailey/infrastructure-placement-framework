@@ -30,14 +30,14 @@ This framework addresses all three pressures through eight interconnected module
 
 | Module | Name | Core question | Key outputs |
 |---|---|---|---|
-| 01 | Workload placement assessment | Which environment earns each workload? | Placement recommendation, Architecture Decision Record |
-| 02 | Cloud repatriation readiness | Are you ready to repatriate? | Readiness score, migration sequence, risk register |
-| 03 | Hybrid estate Optimization | Is your hybrid estate optimized? | Optimization report, cost reduction register, governance roadmap |
-| 04 | Cyber resilience and business continuity | Can you protect, operate, and exit? | Data protection assessment, BCP, vendor exit runbooks |
-| 05 | AI governance and NIST alignment | Is your AI use defensible and governed? | Shadow AI audit, NIST RMF assessment, acceptable use policy |
-| 06 | End-user device and BYOD strategy | Are your devices and policies aligned? | Device model matrix, MDM recommendation, BYOD policy |
-| 07 | Collaboration platform strategy | Are you on the right platform, governed correctly? | Platform assessment, governance baseline, license Optimization |
-| 08 | Business continuity and disaster recovery | When something goes wrong, how exactly do you recover? | BCP, DRP, ransomware playbook, tabletop exercise guide |
+| 01 | [Workload placement assessment](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/01-workload-placement) | Which environment earns each workload? | Placement recommendation, Architecture Decision Record |
+| 02 | [Cloud repatriation readiness](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/02-repatriation-readiness) | Are you ready to repatriate? | Readiness score, migration sequence, risk register |
+| 03 | [Hybrid estate optimization](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/03-hybrid-optimization) | Is your hybrid estate optimized? | Optimization report, cost reduction register, governance roadmap |
+| 04 | [Cyber resilience and business continuity](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/04-cyber-resilience) | Can you protect, operate, and exit? | Data protection assessment, BCP, vendor exit runbooks |
+| 05 | [AI governance and NIST alignment](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/05-ai-governance) | Is your AI use defensible and governed? | Shadow AI audit, NIST RMF assessment, acceptable use policy |
+| 06 | [End-user device and BYOD strategy](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/06-device-byod) | Are your devices and policies aligned? | Device model matrix, MDM recommendation, BYOD policy |
+| 07 | [Collaboration platform strategy](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/07-collaboration-platform) | Are you on the right platform, governed correctly? | Platform assessment, governance baseline, license optimization |
+| 08 | [Business continuity and disaster recovery](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/modules/08-bcdr) | When something goes wrong, how exactly do you recover? | BCP, DRP, ransomware playbook, tabletop exercise guide |
 
 ---
 
@@ -92,7 +92,7 @@ Every module ships with scoring weight adjustments and domain-specific questions
 | Property management | Tenant data, multi-location infrastructure, integrated property management systems |
 | Education | FERPA, student data protection, mixed device fleets, collaboration platform for staff and students |
 
-See the [`/sectors`](./sectors/) directory for sector-specific variants.
+See the [/sectors](https://github.com/4thandBailey/infrastructure-placement-framework/tree/main/sectors) directory for sector-specific variants.
 
 ---
 
@@ -102,7 +102,7 @@ See the [`/sectors`](./sectors/) directory for sector-specific variants.
 Fork this repository at `github.com/4thandBailey/infrastructure-placement-framework`. Work through the modules relevant to your situation using the assessment guides, decision trees, and scoring templates. No cost, no commitment, no sales call required.
 
 ### Guided assessment
-Open a GitHub Issue using the [assessment-request template](.github/ISSUE_TEMPLATE/assessment-request.md), or contact 4th and Bailey directly at [4thandbailey.com/contact](https://4thandbailey.com/contact). A no-obligation conversation walks through your specific situation using the framework as a structured starting point. Most guided assessments identify three to five immediately actionable findings.
+Open a GitHub Issue using the [assessment-request template](https://github.com/4thandBailey/infrastructure-placement-framework/issues/new?template=assessment-request.md), or contact 4th and Bailey directly at [4thandbailey.com/contact](https://4thandbailey.com/contact). A no-obligation conversation walks through your specific situation using the framework as a structured starting point. Most guided assessments identify three to five immediately actionable findings.
 
 ### Deployment and implementation
 4th and Bailey designs, builds, and deploys the infrastructure changes, governance structures, security controls, and policy frameworks the assessment identifies — from cloud migration to MDM deployment to NIST-aligned AI governance programs.
@@ -119,7 +119,7 @@ Every PowerShell tool in [`4thandBailey/tools`](https://github.com/4thandBailey/
 | Tool | Framework module |
 |---|---|
 | MFA status report | Module 4 (cyber resilience) + Module 7 (collaboration governance) |
-| Inactive users report | Module 5 (shadow AI) + Module 7 (license Optimization) |
+| Inactive users report | Module 5 (shadow AI) + Module 7 (license optimization) |
 | License assignment report | Module 3 (FinOps) + Module 7 (SaaS governance) |
 | Mailbox statistics | Module 4 (data protection) + Module 7 (platform governance) |
 | Group membership report | IAM governance + Module 4 (access control) |
@@ -127,7 +127,7 @@ Every PowerShell tool in [`4thandBailey/tools`](https://github.com/4thandBailey/
 **Six tools in development:**
 1. Conditional Access gap audit → Module 4 + Module 7
 2. Shadow app / OAuth consent audit → Module 5 (shadow AI)
-3. License cost Optimization report → Module 3 + Module 7
+3. License cost optimization report → Module 3 + Module 7
 4. Teams and SharePoint external sharing audit → Module 4 + Module 7
 5. Device compliance / Intune MDM enrollment status → Module 6
 6. Google Workspace and AWS equivalents → Module 7 (platform-agnostic)
@@ -149,7 +149,7 @@ infrastructure-placement-framework/
 ├── modules/
 │   ├── 01-workload-placement/
 │   ├── 02-repatriation-readiness/
-│   ├── 03-hybrid-Optimization/
+│   ├── 03-hybrid-optimization/
 │   ├── 04-cyber-resilience/
 │   ├── 05-ai-governance/
 │   ├── 06-device-byod/
