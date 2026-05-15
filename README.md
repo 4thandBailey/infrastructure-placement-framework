@@ -1,3 +1,5 @@
+![Infrastructure Placement Framework](assets/banner.svg)
+
 # Infrastructure Placement Framework
 
 > **The right technology, in the right environment, governed the right way.**
@@ -143,7 +145,7 @@ infrastructure-placement-framework/
 ├── LICENSE.md
 ├── SECURITY.md
 ├── assets/
-│   └── banner.jpg
+│   └── banner.svg
 ├── modules/
 │   ├── 01-workload-placement/
 │   ├── 02-repatriation-readiness/
