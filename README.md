@@ -32,11 +32,11 @@ This framework addresses all three pressures through eight interconnected module
 |---|---|---|---|
 | 01 | Workload placement assessment | Which environment earns each workload? | Placement recommendation, Architecture Decision Record |
 | 02 | Cloud repatriation readiness | Are you ready to repatriate? | Readiness score, migration sequence, risk register |
-| 03 | Hybrid estate optimisation | Is your hybrid estate optimised? | Optimisation report, cost reduction register, governance roadmap |
+| 03 | Hybrid estate Optimization | Is your hybrid estate optimized? | Optimization report, cost reduction register, governance roadmap |
 | 04 | Cyber resilience and business continuity | Can you protect, operate, and exit? | Data protection assessment, BCP, vendor exit runbooks |
 | 05 | AI governance and NIST alignment | Is your AI use defensible and governed? | Shadow AI audit, NIST RMF assessment, acceptable use policy |
 | 06 | End-user device and BYOD strategy | Are your devices and policies aligned? | Device model matrix, MDM recommendation, BYOD policy |
-| 07 | Collaboration platform strategy | Are you on the right platform, governed correctly? | Platform assessment, governance baseline, licence optimisation |
+| 07 | Collaboration platform strategy | Are you on the right platform, governed correctly? | Platform assessment, governance baseline, licence Optimization |
 | 08 | Business continuity and disaster recovery | When something goes wrong, how exactly do you recover? | BCP, DRP, ransomware playbook, tabletop exercise guide |
 
 ---
@@ -45,7 +45,7 @@ This framework addresses all three pressures through eight interconnected module
 
 | Pillar | Modules | Core question |
 |---|---|---|
-| **Place it right** | 1 – 3 | Which environment earns each workload, and is it optimised? |
+| **Place it right** | 1 – 3 | Which environment earns each workload, and is it optimized? |
 | **Protect it fully** | 4 – 5 | Is the data safe, the business resilient, and AI governed? |
 | **Run it well** | 6 – 7 | Are people equipped with the right tools on the right devices? |
 | **Survive and recover** | 8 | When something goes wrong, exactly how does the business recover? |
@@ -119,7 +119,7 @@ Every PowerShell tool in [`4thandBailey/tools`](https://github.com/4thandBailey/
 | Tool | Framework module |
 |---|---|
 | MFA status report | Module 4 (cyber resilience) + Module 7 (collaboration governance) |
-| Inactive users report | Module 5 (shadow AI) + Module 7 (licence optimisation) |
+| Inactive users report | Module 5 (shadow AI) + Module 7 (licence Optimization) |
 | Licence assignment report | Module 3 (FinOps) + Module 7 (SaaS governance) |
 | Mailbox statistics | Module 4 (data protection) + Module 7 (platform governance) |
 | Group membership report | IAM governance + Module 4 (access control) |
@@ -127,7 +127,7 @@ Every PowerShell tool in [`4thandBailey/tools`](https://github.com/4thandBailey/
 **Six tools in development:**
 1. Conditional Access gap audit → Module 4 + Module 7
 2. Shadow app / OAuth consent audit → Module 5 (shadow AI)
-3. Licence cost optimisation report → Module 3 + Module 7
+3. Licence cost Optimization report → Module 3 + Module 7
 4. Teams and SharePoint external sharing audit → Module 4 + Module 7
 5. Device compliance / Intune MDM enrollment status → Module 6
 6. Google Workspace and AWS equivalents → Module 7 (platform-agnostic)
@@ -149,7 +149,7 @@ infrastructure-placement-framework/
 ├── modules/
 │   ├── 01-workload-placement/
 │   ├── 02-repatriation-readiness/
-│   ├── 03-hybrid-optimisation/
+│   ├── 03-hybrid-Optimization/
 │   ├── 04-cyber-resilience/
 │   ├── 05-ai-governance/
 │   ├── 06-device-byod/
@@ -171,7 +171,7 @@ infrastructure-placement-framework/
 
 ## About 4th and Bailey
 
-4th and Bailey is an enterprise IT consulting firm headquartered in Houston, TX, serving organizations nationwide. We specialise in Cloud Services, Cybersecurity, Infrastructure Governance, and Technology Strategy for organizations that have outgrown commodity IT.
+4th and Bailey is an enterprise IT consulting firm headquartered in Houston, TX, serving organizations nationwide. We specialize in Cloud Services, Cybersecurity, Infrastructure Governance, and Technology Strategy for organizations that have outgrown commodity IT.
 
 We serve: Distribution & Wholesale · Education · Energy, Oil & Gas · Financial Institutions · Global Logistics & Carriers · Healthcare · Legal · Manufacturing · Non-Profit & Faith-Based · Professional Services · Property Management · Title Companies · Veterinary & Animal Hospitals
 
