@@ -1,21 +1,57 @@
+---
+title: "AiTM Phishing and Public Authentication Endpoint Abuse — Microsoft 365 Attack Analysis"
+description: "How adversary-in-the-middle (AiTM) phishing bypasses MFA to compromise Microsoft 365 accounts via Azure CLI and PowerShell. Includes anonymized case study, detection indicators, defensive controls, and remediation sequence."
+keywords: ["AiTM phishing", "adversary in the middle", "Microsoft 365 account compromise", "MFA bypass", "Azure CLI attack", "Entra ID sign-in logs", "session token hijacking", "FIDO2 security keys", "Token Protection Conditional Access", "cyber resilience"]
+module: "04-cyber-resilience"
+document_type: "threat-intelligence-supplement"
+source: "confirmed-incident-anonymized"
+date: "2026-05-15"
+author: "4th and Bailey | Information Technology Consulting"
+license: "CC BY 4.0"
+mitre: ["T1557", "T1098.005", "T1564.008"]
+---
+
 # AiTM Phishing and Public Authentication Endpoint Abuse
 
 > **Module 04 — Cyber Resilience and Business Continuity**
 > Threat intelligence supplement · Derived from a confirmed incident · May 2026
 
+Adversary-in-the-middle (AiTM) phishing is one of the most operationally dangerous attack techniques targeting Microsoft 365 environments because it defeats multi-factor authentication entirely — not by cracking it, but by capturing the authenticated session token in real time. This document explains how the attack works, what the sign-in and audit logs reveal, which controls actually stop it, and how to remediate a confirmed compromise.
+
 ---
 
-## Overview
+## Contents
 
-This document addresses a question that arises frequently during post-incident reviews of Microsoft 365 account compromises involving Azure CLI or PowerShell:
+1. [Attack Mind Map](#attack-mind-map)
+2. [How Azure CLI and PowerShell Are Used in Attacks](#how-azure-cli-and-powershell-authentication-works-against-a-target-tenant)
+3. [Anonymized Case Study — Three-Phase Attack Pattern](#confirmed-incident-pattern--anonymized-case-study)
+4. [Why Standard MFA Does Not Stop AiTM](#why-standard-mfa-does-not-stop-aitm-attacks)
+5. [What Actually Stops These Attacks](#what-actually-stops-these-attacks)
+6. [Inbox Rule Persistence](#inbox-rule-persistence--a-frequently-overlooked-artifact)
+7. [Remediation Sequence](#remediation-sequence-for-confirmed-aitm-compromise)
+8. [Relationship to Framework Controls](#relationship-to-framework-controls)
+9. [Frequently Asked Questions](#frequently-asked-questions)
+10. [References](#references)
 
-> *"Did the attacker use another account inside our tenant, or did they need access to another Microsoft cloud environment to launch the attack?"*
+---
 
-The answer to both is **no** — and understanding why is essential to building controls that actually match the threat.
+## Attack Mind Map
+
+The diagram below maps the full AiTM attack pattern across three color-coded branches: the attack chain (left), the defensive controls that address each phase (right), and the post-compromise remediation sequence (bottom). Use it as a quick reference during incident response or client briefings.
+
+![AiTM phishing attack mind map — three-branch diagram showing credential spray, PowerShell probing, AiTM breach, and persistence on the left; FIDO2 MFA, Token Protection, Safe Links, and Identity Protection on the right; five-step remediation sequence across the bottom.](../../assets/aitm-attack-mind-map.svg)
+
+*Figure 1: AiTM phishing attack mind map. Left branch = attack chain (credential spray → PowerShell probing → AiTM breach → persistence). Right branch = defensive controls (FIDO2 MFA, Token Protection, Defender Safe Links/Attachments, Identity Protection). Bottom band = five-step remediation sequence. Color coding: red = attacker actions, green = defensive controls, blue = remediation steps. Derived from a confirmed Microsoft 365 account compromise. All identifying details anonymized.*
 
 ---
 
 ## How Azure CLI and PowerShell Authentication Works Against a Target Tenant
+
+A common question after a Microsoft 365 account compromise involving Azure CLI or PowerShell is:
+
+> *"Did the attacker use another account inside our tenant, or did they need access to another Microsoft cloud environment to launch the attack?"*
+
+The answer to both is **no** — and understanding why is essential to building controls that actually match the threat.
 
 Azure CLI (`az`) and Azure AD PowerShell are **freely available client tools** that anyone can download and install on any machine, anywhere in the world. They are not privileged utilities — they are the same tools your IT team uses, redistributed by Microsoft publicly.
 
@@ -114,7 +150,7 @@ Available in Entra ID P1 licensing. Pilot with privileged accounts and IT staff 
 
 ### Conditional Access — Geographic and ASN-Based Restrictions (Addresses Phase 1)
 
-If the organization's user population does not legitimately authenticate from Luxembourg, Las Vegas, or overseas IPv6 ranges, a Conditional Access Named Location policy can block or require step-up authentication from those ranges. This would not have stopped the AiTM breach (which used a domestic IP), but it would have eliminated 96 of the 101 attack-phase attempts before they were logged.
+If the organization's user population does not legitimately authenticate from overseas locations or unexpected IPv6 ranges, a Conditional Access Named Location policy can block or require step-up authentication from those ranges. This would not have stopped the AiTM breach (which used a domestic IP), but it would have eliminated the majority of the spray campaign attempts before they were logged.
 
 ### Entra ID Identity Protection — Risk-Based Conditional Access (Addresses Phase 1 and 3)
 
@@ -182,6 +218,22 @@ For organizations with confirmed deep compromise, provisioning a **new account a
 | Rogue MFA device registration | Module 04 — Monitoring | Sentinel / Defender XDR alert on registration events |
 | Inbox rule persistence | Module 04 — Incident response | Post-compromise mailbox audit checklist |
 | Administrative PowerShell probing | Module 04 — Identity resilience | Privileged Identity Management, Conditional Access for admin roles |
+
+---
+
+## Frequently Asked Questions
+
+**Does the attacker need to be inside our Microsoft tenant to use Azure CLI against us?**
+No. Azure CLI and Azure AD PowerShell are publicly available tools that authenticate against Microsoft's public `login.microsoftonline.com` endpoint. Any attacker on the internet can target any tenant — no internal access is required.
+
+**If MFA is enabled, how did the attacker get in?**
+AiTM phishing captures the authenticated session token — the result of a successful MFA challenge — not the MFA code itself. The victim completes their own legitimate MFA; the proxy intercepts the resulting session cookie before it reaches the browser. Standard push-notification MFA does not prevent this.
+
+**What is the single highest-impact control to deploy against AiTM phishing?**
+FIDO2 hardware security keys. They are cryptographically bound to the legitimate login domain and will refuse to authenticate to any AiTM proxy, regardless of how convincing the phishing page appears. As an interim step with no additional licensing cost, enabling number matching in Microsoft Authenticator significantly raises the bar.
+
+**Do standard remediation steps remove inbox rules?**
+No. Password resets, token revocation, and MFA device removal do not touch inbox rules. Rules persist on the mailbox object and must be audited and removed separately.
 
 ---
 
