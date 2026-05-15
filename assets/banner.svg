@@ -1,1 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1929"/>
+      <stop offset="55%" stop-color="#0F2744"/>
+      <stop offset="100%" stop-color="#1A3A5C"/>
+    </linearGradient>
+    <linearGradient id="glowLeft" x1="0" y1="1" x2="0.4" y2="0">
+      <stop offset="0%" stop-color="#1B4F8A" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0B1929" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="buildingGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E4A7A" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0B1929" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A6AB5" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#4A90D9" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#1A3A5C" stop-opacity="0.2"/>
+    </linearGradient>
+    <clipPath id="bannerClip">
+      <rect width="1280" height="640"/>
+    </clipPath>
+  </defs>
 
+  <g clip-path="url(#bannerClip)">
+
+    <!-- Base background -->
+    <rect width="1280" height="640" fill="url(#skyGrad)"/>
+
+    <!-- Architectural glass building — right side, perspective grid -->
+    <!-- Main building face panels -->
+    <g opacity="0.55">
+      <!-- Perspective lines emanating from vanishing point at ~900,80 -->
+      <!-- Vertical structural columns -->
+      <line x1="720" y1="0" x2="780" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.6"/>
+      <line x1="800" y1="0" x2="850" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.6"/>
+      <line x1="880" y1="0" x2="920" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.5"/>
+      <line x1="960" y1="0" x2="990" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.5"/>
+      <line x1="1040" y1="0" x2="1060" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.45"/>
+      <line x1="1120" y1="0" x2="1130" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.4"/>
+      <line x1="1200" y1="0" x2="1200" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.35"/>
+      <line x1="1280" y1="0" x2="1270" y2="640" stroke="#1E4A7A" stroke-width="1.2" opacity="0.3"/>
+
+      <!-- Horizontal floor lines — receding perspective -->
+      <line x1="700" y1="30"  x2="1280" y2="55"  stroke="#2A6AB5" stroke-width="0.8" opacity="0.4"/>
+      <line x1="700" y1="72"  x2="1280" y2="95"  stroke="#2A6AB5" stroke-width="0.8" opacity="0.4"/>
+      <line x1="700" y1="114" x2="1280" y2="135" stroke="#2A6AB5" stroke-width="0.8" opacity="0.38"/>
+      <line x1="700" y1="156" x2="1280" y2="175" stroke="#2A6AB5" stroke-width="0.8" opacity="0.36"/>
+      <line x1="700" y1="198" x2="1280" y2="215" stroke="#2A6AB5" stroke-width="0.8" opacity="0.34"/>
+      <line x1="700" y1="240" x2="1280" y2="255" stroke="#2A6AB5" stroke-width="0.8" opacity="0.32"/>
+      <line x1="700" y1="282" x2="1280" y2="295" stroke="#2A6AB5" stroke-width="0.8" opacity="0.30"/>
+      <line x1="700" y1="324" x2="1280" y2="335" stroke="#2A6AB5" stroke-width="0.8" opacity="0.28"/>
+      <line x1="700" y1="366" x2="1280" y2="375" stroke="#2A6AB5" stroke-width="0.8" opacity="0.26"/>
+      <line x1="700" y1="408" x2="1280" y2="415" stroke="#2A6AB5" stroke-width="0.8" opacity="0.24"/>
+      <line x1="700" y1="450" x2="1280" y2="455" stroke="#2A6AB5" stroke-width="0.8" opacity="0.22"/>
+      <line x1="700" y1="492" x2="1280" y2="495" stroke="#2A6AB5" stroke-width="0.8" opacity="0.20"/>
+      <line x1="700" y1="534" x2="1280" y2="535" stroke="#2A6AB5" stroke-width="0.8" opacity="0.18"/>
+      <line x1="700" y1="576" x2="1280" y2="575" stroke="#2A6AB5" stroke-width="0.8" opacity="0.16"/>
+      <line x1="700" y1="618" x2="1280" y2="615" stroke="#2A6AB5" stroke-width="0.8" opacity="0.14"/>
+
+      <!-- Glass panel fills — alternating light/dark reflecting sky -->
+      <rect x="720" y="0" width="80" height="640" fill="#2A6AB5" opacity="0.04"/>
+      <rect x="880" y="0" width="80" height="640" fill="#2A6AB5" opacity="0.06"/>
+      <rect x="1040" y="0" width="80" height="640" fill="#2A6AB5" opacity="0.04"/>
+      <rect x="1200" y="0" width="80" height="640" fill="#2A6AB5" opacity="0.03"/>
+    </g>
+
+    <!-- Warm sunset glow at bottom left — matching original banner -->
+    <ellipse cx="280" cy="590" rx="320" ry="180" fill="#1B5AA0" opacity="0.28"/>
+    <ellipse cx="220" cy="620" rx="180" ry="100" fill="#2A78C8" opacity="0.18"/>
+    <ellipse cx="180" cy="640" rx="120" ry="70" fill="#4A90D9" opacity="0.12"/>
+
+    <!-- Left content overlay — subtle dark fade for text legibility -->
+    <rect x="0" y="0" width="700" height="640" fill="url(#glowLeft)"/>
+    <rect x="0" y="0" width="500" height="640" fill="#0B1929" opacity="0.35"/>
+
+    <!-- Diagonal light streak — upper right architectural reflection -->
+    <line x1="900" y1="0" x2="1280" y2="200" stroke="#4A90D9" stroke-width="0.6" opacity="0.3"/>
+    <line x1="850" y1="0" x2="1280" y2="280" stroke="#4A90D9" stroke-width="0.4" opacity="0.2"/>
+
+    <!-- ══════════════════════════════════════════════════
+         TEXT CONTENT — matching exact design language
+         ══════════════════════════════════════════════════ -->
+
+    <!-- White horizontal rule accent — matches original -->
+    <rect x="72" y="128" width="52" height="3.5" fill="#FFFFFF" opacity="0.92"/>
+
+    <!-- Primary headline — white, extra bold, large -->
+    <text x="72" y="228"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="82"
+          font-weight="800"
+          fill="#FFFFFF"
+          letter-spacing="-1.5">Infrastructure</text>
+
+    <text x="72" y="322"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="82"
+          font-weight="800"
+          fill="#FFFFFF"
+          letter-spacing="-1.5">Placement Framework.</text>
+
+    <!-- Secondary headline — steel blue, bold — matches original -->
+    <text x="72" y="400"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="46"
+          font-weight="700"
+          fill="#4A90D9"
+          letter-spacing="-0.5">Place it right. Protect it fully. Run it well.</text>
+
+    <!-- Separator rule -->
+    <rect x="72" y="426" width="480" height="1" fill="#FFFFFF" opacity="0.25"/>
+
+    <!-- Body copy — small, white -->
+    <text x="72" y="460"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="18"
+          font-weight="400"
+          fill="#FFFFFF"
+          opacity="0.82"
+          letter-spacing="0.3">Cloud · Repatriation · Cybersecurity · AI Governance · BYOD · NIST-Aligned</text>
+
+    <!-- Location / URL line — steel blue, small — matches original -->
+    <text x="72" y="498"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="17"
+          font-weight="400"
+          fill="#4A90D9"
+          letter-spacing="0.2">github.com/4thandBailey · 4thandbailey.com</text>
+
+    <!-- Services line — white, small, dot-separated — matches original -->
+    <text x="72" y="526"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="16"
+          font-weight="400"
+          fill="#FFFFFF"
+          opacity="0.65"
+          letter-spacing="0.3">Cloud Services · Cybersecurity · Infrastructure Governance · Technology Strategy</text>
+
+    <!-- 4th and Bailey attribution — small, bottom left -->
+    <text x="72" y="600"
+          font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif"
+          font-size="14"
+          font-weight="600"
+          fill="#FFFFFF"
+          opacity="0.45"
+          letter-spacing="1.5">4TH AND BAILEY · HOUSTON, TX · NATIONWIDE</text>
+
+  </g>
+</svg>
