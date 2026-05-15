@@ -70,7 +70,7 @@ The 3-2-1 backup rule: **three** copies of data, on **two** different media type
 |---|---|---|---|
 | At rest | Encryption enabled for all cloud storage | ✅ / ⚠️ / ❌ | |
 | At rest | Encryption enabled for on-premises data stores | ✅ / ⚠️ / ❌ | |
-| At rest | Encryption keys managed by organisation (not vendor-managed only) | ✅ / ⚠️ / ❌ | |
+| At rest | Encryption keys managed by organization (not vendor-managed only) | ✅ / ⚠️ / ❌ | |
 | At rest | Laptop/endpoint full-disk encryption enforced | ✅ / ⚠️ / ❌ | |
 | In transit | TLS enforced for all data in transit | ✅ / ⚠️ / ❌ | |
 | In transit | No unencrypted protocols in use (HTTP, FTP, Telnet) for sensitive data | ✅ / ⚠️ / ❌ | |

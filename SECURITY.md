@@ -38,7 +38,7 @@ Please do not open a public GitHub Issue to report a security vulnerability. Pub
 
 Given that this repository contains documentation only, security issues are limited to:
 
-- A template or checklist that contains factually incorrect security guidance that could lead an organisation to make a harmful decision
+- A template or checklist that contains factually incorrect security guidance that could lead an organization to make a harmful decision
 - A cited tool or resource in the framework that has itself been identified as malicious or compromised
 - A script example (if any are added in future) that contains a vulnerability
 

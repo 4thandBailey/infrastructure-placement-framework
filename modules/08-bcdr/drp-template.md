@@ -19,7 +19,7 @@
 
 This Disaster Recovery Plan (DRP) defines the step-by-step process for restoring [ORGANISATION NAME]'s IT systems, data, and infrastructure after a technical failure, cyberattack, or disaster. It is a component of the Business Continuity Plan (BCP), not a replacement for it.
 
-The BCP addresses how the organisation keeps operating. This DRP addresses how IT systems are restored.
+The BCP addresses how the organization keeps operating. This DRP addresses how IT systems are restored.
 
 **Scope:** All IT systems, data stores, and infrastructure operated by or on behalf of [ORGANISATION NAME].
 

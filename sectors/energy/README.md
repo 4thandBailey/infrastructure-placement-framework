@@ -6,7 +6,7 @@
 
 ## Sector overview
 
-Energy and oil & gas organisations operate at the intersection of IT and Operational Technology (OT) — two environments with fundamentally different security models, latency requirements, and regulatory frameworks. SCADA systems, industrial control systems (ICS), and remote field operations cannot tolerate the latency of cloud delivery for control functions. NERC CIP (for organisations connected to the bulk electric system) creates mandatory security controls that constrain placement options.
+Energy and oil & gas organizations operate at the intersection of IT and Operational Technology (OT) — two environments with fundamentally different security models, latency requirements, and regulatory frameworks. SCADA systems, industrial control systems (ICS), and remote field operations cannot tolerate the latency of cloud delivery for control functions. NERC CIP (for organizations connected to the bulk electric system) creates mandatory security controls that constrain placement options.
 
 The IT/OT convergence that has accelerated over the past decade has also expanded the attack surface dramatically. OT systems that were once air-gapped are now connected — and the frameworks that govern IT security were not designed for OT environments where a security failure can mean physical damage to equipment, environmental incidents, or loss of life.
 
@@ -56,7 +56,7 @@ The IT/OT convergence that has accelerated over the past decade has also expande
 
 ### Module 5 — AI governance
 
-- Is AI being applied to operational data (predictive maintenance, anomaly detection, production optimisation)?
+- Is AI being applied to operational data (predictive maintenance, anomaly detection, production optimization)?
 - Is operational data subject to export controls or data residency requirements?
 - Does AI governance cover both IT and OT environments?
 

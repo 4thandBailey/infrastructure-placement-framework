@@ -44,7 +44,7 @@ Submit a sector addition request using the [sector-addition-request template](.g
 - Markdown formatting consistent with existing files (headings, table style, bold emphasis)
 - No vendor promotional content of any kind
 - All factual claims supported by a cited source with a date (e.g., "IBM Cost of a Data Breach Report 2025")
-- Assessment questions must be answerable by an organisation working independently, without requiring external expertise to understand the question
+- Assessment questions must be answerable by an organization working independently, without requiring external expertise to understand the question
 
 **Additional requirements for methodology changes:**
 - Any PR that proposes changes to scoring weights, thresholds, or dimension definitions must include a corresponding update to `METHODOLOGY.md`
@@ -56,7 +56,7 @@ Submit a sector addition request using the [sector-addition-request template](.g
 
 All contributions are acknowledged in `CHANGELOG.md` and, where substantive, in the affected module's README.
 
-Contributors who submit accepted sector variants are acknowledged by name or organisation (at their preference) in the sector README.
+Contributors who submit accepted sector variants are acknowledged by name or organization (at their preference) in the sector README.
 
 ---
 

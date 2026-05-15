@@ -6,15 +6,15 @@
 
 ## The question
 
-When something goes wrong — a ransomware attack, a data breach, a vendor failure, a natural disaster, an accidental deletion — exactly how does your organisation recover, in what order, by whom, and how fast?
+When something goes wrong — a ransomware attack, a data breach, a vendor failure, a natural disaster, an accidental deletion — exactly how does your organization recover, in what order, by whom, and how fast?
 
 ---
 
 ## Why this module exists
 
-This is the most overlooked module in enterprise IT planning. Plans exist on paper in most organisations. Tested, current, role-specific plans that the team has actually rehearsed are rare.
+This is the most overlooked module in enterprise IT planning. Plans exist on paper in most organizations. Tested, current, role-specific plans that the team has actually rehearsed are rare.
 
-- **76%** of organisations needed more than 100 days to fully recover from a cyberattack (IBM Cost of a Data Breach Report, 2025)
+- **76%** of organizations needed more than 100 days to fully recover from a cyberattack (IBM Cost of a Data Breach Report, 2025)
 - **40%** of small businesses never reopen after a disaster (FEMA)
 - **25%** fail within one year (FEMA)
 - **44%** of data breaches involved ransomware (Verizon DBIR 2025)
@@ -27,10 +27,10 @@ The gap between having a plan on paper and having a plan that works is measured 
 
 A **Business Continuity Plan (BCP)** and a **Disaster Recovery Plan (DRP)** are not the same document.
 
-- **BCP** — Strategic. Keeps the entire organisation operating across all functions during and after any disruption: people, processes, communications, alternate work locations, manual workarounds.
+- **BCP** — Strategic. Keeps the entire organization operating across all functions during and after any disruption: people, processes, communications, alternate work locations, manual workarounds.
 - **DRP** — Tactical. Restores IT systems, data, and infrastructure after a technical failure. A component of the BCP, not a replacement.
 
-Most organisations have a version of a DRP. Almost none have a genuine BCP.
+Most organizations have a version of a DRP. Almost none have a genuine BCP.
 
 ---
 

@@ -26,7 +26,7 @@ This checklist supports the quarterly governance review cadence established in M
 | A4 | Anomaly alerts reviewed and actioned since last review | ✅ / ⚠️ / ❌ | |
 | A5 | No idle or orphaned resources identified (or remediation in progress) | ✅ / ⚠️ / ❌ | |
 | A6 | Reserved instances/savings plans utilisation above 85% | ✅ / ⚠️ / ❌ | |
-| A7 | SaaS licence utilisation reviewed; unused licences flagged for reclamation | ✅ / ⚠️ / ❌ | |
+| A7 | SaaS license utilisation reviewed; unused licenses flagged for reclamation | ✅ / ⚠️ / ❌ | |
 | A8 | Monthly cloud cost report distributed to business owners | ✅ / ⚠️ / ❌ | |
 
 **Section A score:** _____ / 8 = _____%

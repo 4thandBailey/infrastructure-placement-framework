@@ -6,7 +6,7 @@
 
 ## Ownership model selection guide
 
-Use this matrix to determine the correct ownership model for each role category in your organisation.
+Use this matrix to determine the correct ownership model for each role category in your organization.
 
 | Role category | Data sensitivity | Regulatory requirement | Recommended model | MDM requirement |
 |---|---|---|---|---|
@@ -23,9 +23,9 @@ Use this matrix to determine the correct ownership model for each role category 
 
 ---
 
-## Organisation-specific role matrix
+## Organization-specific role matrix
 
-Complete this matrix for your organisation's specific roles:
+Complete this matrix for your organization's specific roles:
 
 | Role | Department | Data sensitivity | Current model | Recommended model | MDM enrolled? | Gap |
 |---|---|---|---|---|---|---|
@@ -36,7 +36,7 @@ Complete this matrix for your organisation's specific roles:
 
 ## Containerisation architecture
 
-For BYOD and CYOD deployments where the organisation cannot manage the full device, a containerisation approach separates corporate data from personal data:
+For BYOD and CYOD deployments where the organization cannot manage the full device, a containerisation approach separates corporate data from personal data:
 
 | Approach | How it works | Best for |
 |---|---|---|

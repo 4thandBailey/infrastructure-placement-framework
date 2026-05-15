@@ -161,7 +161,7 @@ This ADR is reviewed on the scheduled review date above, OR when any of the foll
 - [ ] Cloud provider announces significant pricing change (> 15% increase)
 - [ ] New compliance requirement affects data placement for this workload
 - [ ] Vendor announces End of Life or significant product change
-- [ ] Organisation's AI workload volume or sensitivity changes significantly
+- [ ] Organization's AI workload volume or sensitivity changes significantly
 - [ ] Workload characteristics change materially (scale, latency requirement, data sensitivity)
 
 **Review date:** _______________________________________________

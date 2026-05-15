@@ -1,4 +1,4 @@
-# Module 3 — Hybrid Estate Optimisation Assessment
+# Module 3 — Hybrid Estate Optimization Assessment
 
 **Infrastructure Placement Framework · 4th and Bailey · v1.0.0**
 
@@ -8,7 +8,7 @@
 
 **Assessed by:** _______________________________________________
 
-**Organisation:** _______________________________________________
+**Organization:** _______________________________________________
 
 ---
 
@@ -28,7 +28,7 @@ Compare each workload's current placement against its Module 1 score. Flag any w
 
 ## Section 2 — Cloud cost anomaly detection
 
-### 2.1 Idle and underutilised resources
+### 2.1 Idle and underutilized resources
 
 Review each cloud account for the following categories of waste:
 
@@ -43,17 +43,17 @@ Review each cloud account for the following categories of waste:
 | Unattended development/test environments running 24/7 | | | |
 | **Total estimated annual waste** | | | |
 
-### 2.2 Licence utilisation
+### 2.2 License utilisation
 
-| SaaS product | Licences purchased | Licences actively used | Utilisation % | Action |
+| SaaS product | Licenses purchased | Licenses actively used | Utilisation % | Action |
 |---|---|---|---|---|
 | Microsoft 365 | | | | |
 | Google Workspace | | | | |
 | Other SaaS (list) | | | | |
 
-**Licences flagged for reclamation:** _____
+**Licenses flagged for reclamation:** _____
 
-**Estimated annual savings from licence optimisation:** $ _______________
+**Estimated annual savings from license optimization:** $ _______________
 
 ### 2.3 Reserved instance and savings plan utilisation
 
@@ -85,7 +85,7 @@ Review each cloud account for the following categories of waste:
 |---|---|---|
 | Crawl | Some visibility, ad hoc cost reviews, no structured ownership | |
 | Walk | Regular cost reviews, tagging in place, basic cost allocation | |
-| Run | Continuous optimisation, chargeback/showback, FinOps ownership defined | |
+| Run | Continuous optimization, chargeback/showback, FinOps ownership defined | |
 
 **Current FinOps maturity:** _______________________________________________
 
@@ -131,9 +131,9 @@ Summarise all identified savings opportunities from this assessment:
 |---|---|---|---|---|
 | Idle/orphaned resource cleanup | | | Low / Med / High | High / Med / Low |
 | Rightsizing opportunities | | | Low / Med / High | High / Med / Low |
-| Licence reclamation | | | Low / Med / High | High / Med / Low |
-| Reserved instance optimisation | | | Low / Med / High | High / Med / Low |
-| FinOps programme establishment | | | Low / Med / High | High / Med / Low |
+| License reclamation | | | Low / Med / High | High / Med / Low |
+| Reserved instance optimization | | | Low / Med / High | High / Med / Low |
+| FinOps program establishment | | | Low / Med / High | High / Med / Low |
 | **Total estimated annual savings** | | | | |
 
 ---
@@ -150,7 +150,7 @@ Summarise all identified savings opportunities from this assessment:
 
 ## Quarterly review cadence
 
-Hybrid estate optimisation is not a one-time exercise. The following reviews should be scheduled:
+Hybrid estate optimization is not a one-time exercise. The following reviews should be scheduled:
 
 | Review | Frequency | Scope |
 |---|---|---|
@@ -158,7 +158,7 @@ Hybrid estate optimisation is not a one-time exercise. The following reviews sho
 | Workload placement review | Quarterly | New workloads assessed; existing workloads reviewed against criteria |
 | FinOps governance review | Quarterly | Tagging compliance, cost allocation accuracy, budget vs. actuals |
 | Access and IAM review | Quarterly | Privileged access, service accounts, external access |
-| Full estate optimisation assessment | Annually | Complete re-run of this assessment |
+| Full estate optimization assessment | Annually | Complete re-run of this assessment |
 
 **Next quarterly review scheduled:** _______________________________________________
 

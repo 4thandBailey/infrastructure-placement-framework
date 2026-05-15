@@ -2,7 +2,7 @@
 
 **[ORGANISATION NAME] — Bring Your Own Device (BYOD) Security Policy**
 
-*Template · Customise for your organisation · Requires legal review before adoption*
+*Template · Customise for your organization · Requires legal review before adoption*
 
 **Version:** 1.0 | **Effective date:** [DATE] | **Review date:** [DATE + 12 months]
 
@@ -10,7 +10,7 @@
 
 ## 1. Purpose
 
-This policy governs the use of employee-owned personal devices to access [ORGANISATION NAME] data, systems, and networks. It establishes the minimum security requirements for personal devices and defines the organisation's rights to manage corporate data on those devices.
+This policy governs the use of employee-owned personal devices to access [ORGANISATION NAME] data, systems, and networks. It establishes the minimum security requirements for personal devices and defines the organization's rights to manage corporate data on those devices.
 
 ---
 
@@ -61,7 +61,7 @@ Employees using personal devices for work must comply with the [ORGANISATION NAM
 
 ---
 
-## 7. Organisation rights
+## 7. Organization rights
 
 By enrolling a personal device, the employee acknowledges that [ORGANISATION NAME] has the right to:
 
@@ -84,7 +84,7 @@ If a personal device is lost, stolen, or believed to be compromised:
 
 ---
 
-## 9. Departure from the organisation
+## 9. Departure from the organization
 
 Upon termination of employment or contract:
 - Corporate data and applications will be remotely removed from the personal device

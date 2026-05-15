@@ -6,7 +6,7 @@
 
 ## Instructions
 
-This assessment evaluates organisational readiness to execute cloud repatriation successfully across five dimensions. Complete this assessment before beginning any repatriation sequencing or vendor selection.
+This assessment evaluates organizational readiness to execute cloud repatriation successfully across five dimensions. Complete this assessment before beginning any repatriation sequencing or vendor selection.
 
 **Readiness threshold:** A score below 60% in any dimension is a flagged risk requiring a remediation plan before repatriation begins. Attempting repatriation with unresolved readiness gaps is the leading cause of failed or cost-overrun repatriation projects.
 
@@ -14,7 +14,7 @@ This assessment evaluates organisational readiness to execute cloud repatriation
 
 **Assessed by:** _______________________________________________
 
-**Organisation:** _______________________________________________
+**Organization:** _______________________________________________
 
 **Candidate workloads for repatriation** *(list from Module 1 assessment)*:
 
@@ -100,7 +100,7 @@ Is network connectivity (bandwidth, redundancy, latency) sufficient to support r
 
 ### 2.4 Monitoring and observability
 
-Will the organisation have equivalent monitoring and observability for on-premises workloads as currently exists in cloud?
+Will the organization have equivalent monitoring and observability for on-premises workloads as currently exists in cloud?
 
 - [ ] Yes — on-premises monitoring tooling is available or identified
 - [ ] Partial — some monitoring capability; gaps identified
@@ -166,13 +166,13 @@ Is 24/7 or after-hours operational coverage available for critical on-premises s
 
 ## Dimension 4 — VMware / Broadcom licensing exposure
 
-### 4.1 VMware licence status
+### 4.1 VMware license status
 
-What is the organisation's current VMware licensing position?
+What is the organization's current VMware licensing position?
 
-- [ ] Perpetual licences — affected by Broadcom's 2024 elimination of perpetual licensing
-- [ ] Subscription licences — current; evaluate renewal cost
-- [ ] No VMware licences — not applicable
+- [ ] Perpetual licenses — affected by Broadcom's 2024 elimination of perpetual licensing
+- [ ] Subscription licenses — current; evaluate renewal cost
+- [ ] No VMware licenses — not applicable
 
 ### 4.2 Broadcom pricing impact
 
@@ -186,7 +186,7 @@ Has the financial impact of Broadcom's VMware licensing changes been quantified?
 
 Does the VMware licensing situation create a time pressure on the repatriation decision?
 
-- [ ] Yes — licence renewal deadline creates urgency: date _______________
+- [ ] Yes — license renewal deadline creates urgency: date _______________
 - [ ] No — no immediate time pressure from licensing
 
 ### 4.4 Alternative platform evaluation
@@ -281,7 +281,7 @@ Based on the assessment above:
 - [ ] Address flagged dimensions before beginning migration
 - [ ] Develop skills remediation plan for identified gaps
 - [ ] Initiate platform selection for virtualisation alternative (if VMware-exposed)
-- [ ] Begin Module 3 (Hybrid estate optimisation) to govern the resulting hybrid estate
+- [ ] Begin Module 3 (Hybrid estate optimization) to govern the resulting hybrid estate
 - [ ] Document repatriation sequencing in project plan with milestones
 - [ ] Review assessment: _______________________ (recommend within 90 days if flagged items exist)
 

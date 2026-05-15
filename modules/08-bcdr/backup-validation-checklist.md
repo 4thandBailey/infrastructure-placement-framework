@@ -6,7 +6,7 @@
 
 ## Why backup validation matters
 
-A backup job showing "completed successfully" in a console is not evidence that the backup is restorable. The most common discovery organisations make during an actual incident is that backup jobs were completing but producing unrestorable files. By the time this is discovered, it is too late.
+A backup job showing "completed successfully" in a console is not evidence that the backup is restorable. The most common discovery organizations make during an actual incident is that backup jobs were completing but producing unrestorable files. By the time this is discovered, it is too late.
 
 This checklist mandates actual restoration tests — not completion log reviews.
 

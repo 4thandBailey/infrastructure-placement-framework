@@ -12,7 +12,7 @@
 
 ## Section 1 — Current state
 
-| Platform | Currently in use? | Licences purchased | Licences active | Monthly cost |
+| Platform | Currently in use? | Licenses purchased | Licenses active | Monthly cost |
 |---|---|---|---|---|
 | Microsoft 365 | Yes / No | | | |
 | Google Workspace | Yes / No | | | |
@@ -23,7 +23,7 @@
 
 ## Section 2 — Platform selection scoring
 
-Rate your organisation on each factor (1=strongly favours Google/cloud-native, 5=strongly favours M365/enterprise):
+Rate your organization on each factor (1=strongly favors Google/cloud-native, 5=strongly favors M365/enterprise):
 
 | Factor | Score (1–5) | Notes |
 |---|---|---|
@@ -67,7 +67,7 @@ Before enabling AI features (Copilot, Gemini, etc.), confirm data handling terms
 | Admin account security (MFA, named admins) | | | |
 | Guest and external access governance | | | |
 | Data classification and DLP | | | |
-| Licence utilisation | | | |
+| License utilisation | | | |
 | AI feature governance | | | |
 
 ---

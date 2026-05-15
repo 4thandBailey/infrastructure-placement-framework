@@ -1,6 +1,6 @@
 # Module 7 — Dual-Stack Rationalisation Guide
 
-**For organisations running both Microsoft 365 and Google Workspace**
+**For organizations running both Microsoft 365 and Google Workspace**
 
 **Infrastructure Placement Framework · 4th and Bailey · v1.0.0**
 
@@ -8,7 +8,7 @@
 
 ## Why dual-stack happens
 
-64% of organisations run both M365 and Google Workspace (Flexera 2025). The most common causes:
+64% of organizations run both M365 and Google Workspace (Flexera 2025). The most common causes:
 
 - Acquisition or merger where the acquired company used the other platform
 - Department-specific preference (Engineering prefers Google; Finance requires M365)
@@ -40,7 +40,7 @@ Dual-stack is not automatically wrong. Ungoverned, unplanned dual-stack is expen
 | Maintain dual-stack with governance | Define clear use case allocation; govern both platforms | Genuine departmental or use-case differences justify both |
 | Reduce scope of secondary platform | Keep secondary platform for specific use cases only (e.g., Google Meet for external calls only) | Primary platform covers most needs; secondary fills a specific gap |
 
-**Recommended option for this organisation:** _______________________________________________
+**Recommended option for this organization:** _______________________________________________
 
 **Rationale:** _______________________________________________
 

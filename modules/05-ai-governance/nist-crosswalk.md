@@ -27,7 +27,7 @@
 | AI vendor evaluation rubric | NIST AI RMF 1.0 — Map | MAP 3.5 — Third-party AI risk; NIST IR 8596 — Supply chain |
 | Acceptable use policy | NIST AI RMF 1.0 — Govern | GOVERN 1.1, 1.2 — Policies and accountability |
 | NIST AI RMF scored assessment | NIST AI RMF 1.0 — all functions | Full framework assessment |
-| SMB 90-day programme | NIST AI RMF 1.0 | Structured implementation pathway |
+| SMB 90-day program | NIST AI RMF 1.0 | Structured implementation pathway |
 
 ---
 

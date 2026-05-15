@@ -44,7 +44,7 @@
 
 | # | Control | Status | Notes |
 |---|---|---|---|
-| C1 | External sharing policy set to organisation-appropriate level (not "Anyone") | ✅ / ⚠️ / ❌ | |
+| C1 | External sharing policy set to organization-appropriate level (not "Anyone") | ✅ / ⚠️ / ❌ | |
 | C2 | Site-level external sharing reviewed and documented | ✅ / ⚠️ / ❌ | |
 | C3 | Sensitivity labels applied to confidential sites and libraries | ✅ / ⚠️ / ❌ | |
 | C4 | DLP policies configured for sensitive data types | ✅ / ⚠️ / ❌ | |
@@ -73,10 +73,10 @@
 
 | # | Control | Status | Notes |
 |---|---|---|---|
-| E1 | Licence utilisation reviewed in last 30 days | ✅ / ⚠️ / ❌ | |
-| E2 | Inactive user licences reclaimed (users not logged in > 90 days) | ✅ / ⚠️ / ❌ | |
-| E3 | Licence assignment matches actual plan tier needed (no over-provisioning) | ✅ / ⚠️ / ❌ | |
-| E4 | Copilot licences assigned only to active, trained users | ✅ / ⚠️ / ❌ | |
+| E1 | License utilisation reviewed in last 30 days | ✅ / ⚠️ / ❌ | |
+| E2 | Inactive user licenses reclaimed (users not logged in > 90 days) | ✅ / ⚠️ / ❌ | |
+| E3 | License assignment matches actual plan tier needed (no over-provisioning) | ✅ / ⚠️ / ❌ | |
+| E4 | Copilot licenses assigned only to active, trained users | ✅ / ⚠️ / ❌ | |
 
 **Section E score:** _____ / 4 = _____%
 

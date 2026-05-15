@@ -149,7 +149,7 @@ Discussion questions:
 
 **Scenario background:** A major hurricane has made landfall in the Houston area. Your primary office is inaccessible and has no power. The building may have sustained water damage. All on-premises infrastructure is offline.
 
-*(This is not a theoretical scenario for Houston-area organisations.)*
+*(This is not a theoretical scenario for Houston-area organizations.)*
 
 ---
 
@@ -223,7 +223,7 @@ Discussion questions:
 
 **Inject 6.1 — Initial notification**
 
-*"Your MSP has notified you that their management tool has been compromised. All clients of the MSP, including your organisation, should assume their infrastructure has been exposed to the attacker."*
+*"Your MSP has notified you that their management tool has been compromised. All clients of the MSP, including your organization, should assume their infrastructure has been exposed to the attacker."*
 
 Discussion questions:
 - What is your first action when you receive this notification?

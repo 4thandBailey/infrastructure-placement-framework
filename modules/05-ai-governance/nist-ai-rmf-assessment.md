@@ -10,7 +10,7 @@
 
 **Assessed by:** _______________________________________________
 
-**Organisation:** _______________________________________________
+**Organization:** _______________________________________________
 
 ---
 
@@ -25,13 +25,13 @@ Maturity levels:
 | 25–49 | Developing — some controls in place, not systematic |
 | 50–74 | Defined — documented governance with gaps |
 | 75–89 | Managed — systematic, measured governance |
-| 90–100 | Optimising — continuous improvement programme |
+| 90–100 | Optimising — continuous improvement program |
 
 ---
 
 ## Function 1 — GOVERN (0–25 points)
 
-*Governance establishes accountability, policies, and organisational processes for AI risk management.*
+*Governance establishes accountability, policies, and organizational processes for AI risk management.*
 
 | Control | Score (0–5) | Evidence / notes |
 |---|---|---|
@@ -84,7 +84,7 @@ Maturity levels:
 | Technical controls enforce AI governance policy | | |
 | Response process for AI-related incidents exists | | |
 | AI vendor contracts include data handling and security requirements | | |
-| AI governance programme includes ongoing training and awareness | | |
+| AI governance program includes ongoing training and awareness | | |
 | **Function 4 total** | ___/25 | |
 
 ---

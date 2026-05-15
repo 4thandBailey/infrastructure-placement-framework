@@ -6,7 +6,7 @@
 
 ## Sector overview
 
-Legal organisations — law firms, corporate legal departments, and legal service providers — operate under a unique combination of professional obligation and regulatory constraint. Attorney-client privilege, client data confidentiality, and bar association ethics rules create placement constraints that go beyond typical regulatory compliance. The consequences of a breach extend beyond financial liability to include bar discipline, loss of client trust, and potential disqualification from matters.
+Legal organizations — law firms, corporate legal departments, and legal service providers — operate under a unique combination of professional obligation and regulatory constraint. Attorney-client privilege, client data confidentiality, and bar association ethics rules create placement constraints that go beyond typical regulatory compliance. The consequences of a breach extend beyond financial liability to include bar discipline, loss of client trust, and potential disqualification from matters.
 
 Matter management systems (document management, billing, practice management) are typically mission-critical, latency-sensitive, and often involve proprietary vendor platforms that create their own lock-in dynamics.
 
@@ -54,7 +54,7 @@ Matter management systems (document management, billing, practice management) ar
 ### Module 7 — Collaboration platform
 
 - Is client data shared in collaboration platform channels or shared drives accessible to non-authorised parties?
-- Does the governance baseline address matter-level access controls (not just organisation-level)?
+- Does the governance baseline address matter-level access controls (not just organization-level)?
 
 ---
 

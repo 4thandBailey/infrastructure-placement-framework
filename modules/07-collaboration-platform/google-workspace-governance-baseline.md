@@ -40,7 +40,7 @@
 
 | # | Control | Status | Notes |
 |---|---|---|---|
-| C1 | External sharing restricted to approved domains or organisation-level policy | ✅ / ⚠️ / ❌ | |
+| C1 | External sharing restricted to approved domains or organization-level policy | ✅ / ⚠️ / ❌ | |
 | C2 | "Anyone with the link" sharing disabled or restricted to internal only | ✅ / ⚠️ / ❌ | |
 | C3 | Drive audit logs reviewed for anomalous sharing | ✅ / ⚠️ / ❌ | |
 | C4 | Shared drives (formerly Team Drives) ownership reviewed | ✅ / ⚠️ / ❌ | |
@@ -84,9 +84,9 @@ One of the highest-risk areas in Google Workspace: employees granting OAuth acce
 
 | # | Control | Status | Notes |
 |---|---|---|---|
-| F1 | Licence utilisation reviewed in last 30 days | ✅ / ⚠️ / ❌ | |
+| F1 | License utilisation reviewed in last 30 days | ✅ / ⚠️ / ❌ | |
 | F2 | Inactive users suspended or removed | ✅ / ⚠️ / ❌ | |
-| F3 | Licence tier right-sized per role (Frontline Starter vs Business vs Enterprise) | ✅ / ⚠️ / ❌ | |
+| F3 | License tier right-sized per role (Frontline Starter vs Business vs Enterprise) | ✅ / ⚠️ / ❌ | |
 
 **Section F score:** _____ / 3 = _____%
 

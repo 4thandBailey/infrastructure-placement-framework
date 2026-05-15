@@ -6,13 +6,13 @@
 
 ---
 
-## Organisation information
+## Organization information
 
 | Field | Response |
 |---|---|
-| Organisation name | |
+| Organization name | |
 | Industry sector | Healthcare / Legal / Energy / Financial / Logistics / Other: _______ |
-| Organisation size | < 50 / 50–250 / 250–1,000 / 1,000+ employees |
+| Organization size | < 50 / 50–250 / 250–1,000 / 1,000+ employees |
 | Primary location | |
 | Website | |
 
@@ -46,11 +46,11 @@ _______________________________________________
 
 - [ ] Module 1 — Workload placement assessment (which environment earns each workload?)
 - [ ] Module 2 — Cloud repatriation readiness (considering moving workloads back on-premises)
-- [ ] Module 3 — Hybrid estate optimisation (already hybrid; want to optimise and govern)
+- [ ] Module 3 — Hybrid estate optimization (already hybrid; want to optimize and govern)
 - [ ] Module 4 — Cyber resilience and business continuity (data protection, vendor risk, BCP)
 - [ ] Module 5 — AI governance and NIST alignment (shadow AI, acceptable use policy, NIST RMF)
 - [ ] Module 6 — End-user device and BYOD strategy (device ownership models, MDM)
-- [ ] Module 7 — Collaboration platform strategy (M365 vs Workspace, governance, licences)
+- [ ] Module 7 — Collaboration platform strategy (M365 vs Workspace, governance, licenses)
 - [ ] Module 8 — Business continuity and disaster recovery (BCP, DRP, playbooks, exercises)
 - [ ] Full framework assessment — all modules
 

@@ -36,7 +36,7 @@ This framework addresses all three pressures through eight interconnected module
 | 04 | Cyber resilience and business continuity | Can you protect, operate, and exit? | Data protection assessment, BCP, vendor exit runbooks |
 | 05 | AI governance and NIST alignment | Is your AI use defensible and governed? | Shadow AI audit, NIST RMF assessment, acceptable use policy |
 | 06 | End-user device and BYOD strategy | Are your devices and policies aligned? | Device model matrix, MDM recommendation, BYOD policy |
-| 07 | Collaboration platform strategy | Are you on the right platform, governed correctly? | Platform assessment, governance baseline, licence Optimization |
+| 07 | Collaboration platform strategy | Are you on the right platform, governed correctly? | Platform assessment, governance baseline, license Optimization |
 | 08 | Business continuity and disaster recovery | When something goes wrong, how exactly do you recover? | BCP, DRP, ransomware playbook, tabletop exercise guide |
 
 ---
@@ -71,7 +71,7 @@ This framework is designed for:
 - **IT Directors and CTOs** making infrastructure placement and platform decisions
 - **CIOs and CFOs** evaluating cloud repatriation, FinOps, and total cost of ownership
 - **Compliance officers and legal counsel** navigating HIPAA, NIST, SOX, PCI-DSS, and state data residency requirements
-- **Security leaders** building cyber resilience programmes after CrowdStrike
+- **Security leaders** building cyber resilience programs after CrowdStrike
 - **SMB owners and operators** who need structured AI governance from a standing start
 - **IT consultants and advisors** who want a vendor-neutral framework to structure client assessments
 
@@ -105,7 +105,7 @@ Fork this repository at `github.com/4thandBailey/infrastructure-placement-framew
 Open a GitHub Issue using the [assessment-request template](.github/ISSUE_TEMPLATE/assessment-request.md), or contact 4th and Bailey directly at [4thandbailey.com/contact](https://4thandbailey.com/contact). A no-obligation conversation walks through your specific situation using the framework as a structured starting point. Most guided assessments identify three to five immediately actionable findings.
 
 ### Deployment and implementation
-4th and Bailey designs, builds, and deploys the infrastructure changes, governance structures, security controls, and policy frameworks the assessment identifies — from cloud migration to MDM deployment to NIST-aligned AI governance programmes.
+4th and Bailey designs, builds, and deploys the infrastructure changes, governance structures, security controls, and policy frameworks the assessment identifies — from cloud migration to MDM deployment to NIST-aligned AI governance programs.
 
 ### Ongoing advisory
 Infrastructure decisions are not one-time events. 4th and Bailey provides fractional CIO services, quarterly framework reviews, and continuous advisory as technology landscapes, regulatory requirements, and business needs evolve.
@@ -119,15 +119,15 @@ Every PowerShell tool in [`4thandBailey/tools`](https://github.com/4thandBailey/
 | Tool | Framework module |
 |---|---|
 | MFA status report | Module 4 (cyber resilience) + Module 7 (collaboration governance) |
-| Inactive users report | Module 5 (shadow AI) + Module 7 (licence Optimization) |
-| Licence assignment report | Module 3 (FinOps) + Module 7 (SaaS governance) |
+| Inactive users report | Module 5 (shadow AI) + Module 7 (license Optimization) |
+| License assignment report | Module 3 (FinOps) + Module 7 (SaaS governance) |
 | Mailbox statistics | Module 4 (data protection) + Module 7 (platform governance) |
 | Group membership report | IAM governance + Module 4 (access control) |
 
 **Six tools in development:**
 1. Conditional Access gap audit → Module 4 + Module 7
 2. Shadow app / OAuth consent audit → Module 5 (shadow AI)
-3. Licence cost Optimization report → Module 3 + Module 7
+3. License cost Optimization report → Module 3 + Module 7
 4. Teams and SharePoint external sharing audit → Module 4 + Module 7
 5. Device compliance / Intune MDM enrollment status → Module 6
 6. Google Workspace and AWS equivalents → Module 7 (platform-agnostic)

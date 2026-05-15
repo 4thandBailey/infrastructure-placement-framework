@@ -6,7 +6,7 @@
 
 ## The problem
 
-Employees are using AI tools — ChatGPT, Gemini, Perplexity, and hundreds of AI-embedded mobile apps — on personal devices to process work data. This is the fastest-growing shadow AI vector in 2026 and the one most organisations have not addressed in their BYOD policies.
+Employees are using AI tools — ChatGPT, Gemini, Perplexity, and hundreds of AI-embedded mobile apps — on personal devices to process work data. This is the fastest-growing shadow AI vector in 2026 and the one most organizations have not addressed in their BYOD policies.
 
 A BYOD policy that does not explicitly address AI tool usage is a gap. An AI acceptable use policy that does not address personal devices is a gap. These two gaps combine.
 
@@ -29,7 +29,7 @@ The BYOD security policy must include all of the following AI-specific clauses:
 
 | Clause | Policy language |
 |---|---|
-| Approved AI tool list applies to personal devices | "The organisation's AI acceptable use policy and approved AI tool list applies to the use of all AI tools on enrolled personal devices when used for work purposes." |
+| Approved AI tool list applies to personal devices | "The organization's AI acceptable use policy and approved AI tool list applies to the use of all AI tools on enrolled personal devices when used for work purposes." |
 | Prohibited data on personal device AI tools | "Restricted and confidential data (as defined in the data classification policy) must not be entered into any AI tool on a personal device, regardless of whether the tool is on the approved list." |
 | AI note-taking and transcription apps | "AI-based note-taking, transcription, or meeting recording apps may not be used on personal devices during client meetings, confidential business discussions, or any meeting where the content would be classified as internal or above." |
 | AI browser extensions | "AI-enabled browser extensions on personal devices used for work must be approved under the same process as other AI tools." |
@@ -49,7 +49,7 @@ The BYOD security policy must include all of the following AI-specific clauses:
 
 ## Integration with Module 5
 
-This guidance is an extension of the Module 5 AI governance programme. Ensure:
+This guidance is an extension of the Module 5 AI governance program. Ensure:
 
 - The approved AI tool list (Module 5) explicitly states which tools are approved for use on personal devices
 - The shadow AI audit (Module 5) includes personal device app inventory

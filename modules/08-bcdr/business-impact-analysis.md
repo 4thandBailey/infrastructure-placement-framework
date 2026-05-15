@@ -6,7 +6,7 @@
 
 ---
 
-**Organisation:** _______________________________________________
+**Organization:** _______________________________________________
 
 **BIA completed by:** _______________________________________________
 
@@ -20,7 +20,7 @@
 
 ## Part 1 — Critical business function inventory
 
-List every function the organisation must be able to perform to remain operational. Include people, not just systems.
+List every function the organization must be able to perform to remain operational. Include people, not just systems.
 
 | Function | Business unit | Function owner | Tier | Maximum tolerable downtime | Impact if unavailable |
 |---|---|---|---|---|---|

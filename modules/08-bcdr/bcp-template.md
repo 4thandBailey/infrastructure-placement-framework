@@ -19,7 +19,7 @@
 
 ### 1.1 Purpose
 
-This Business Continuity Plan (BCP) defines how [ORGANISATION NAME] maintains or rapidly restores essential business functions during and after any significant disruption. It covers people, processes, communications, alternate work arrangements, and the manual workarounds required to keep the organisation operating regardless of the nature of the disruption.
+This Business Continuity Plan (BCP) defines how [ORGANISATION NAME] maintains or rapidly restores essential business functions during and after any significant disruption. It covers people, processes, communications, alternate work arrangements, and the manual workarounds required to keep the organization operating regardless of the nature of the disruption.
 
 This BCP is distinct from the Disaster Recovery Plan (DRP), which addresses IT system and data restoration. The DRP is a component of this plan, not a replacement for it.
 
@@ -63,10 +63,10 @@ This plan is activated when any of the following occur:
 
 ### 2.2 External contacts (print and store offline)
 
-| Contact | Organisation | Phone | Notes |
+| Contact | Organization | Phone | Notes |
 |---|---|---|---|
 | Cyber insurance carrier | | | Policy #: _______ |
-| Legal counsel | | | Data breach specialisation |
+| Legal counsel | | | Data breach specialization |
 | IT forensics firm | | | On retainer: Yes / No |
 | Primary IT vendor | | | |
 | Backup/DR vendor | | | |

@@ -16,7 +16,7 @@
 
 The CrowdStrike outage of July 19, 2024 demonstrated that a trusted, widely-deployed security vendor can take down 8.5 million systems globally with a single routine update — without a single malicious actor involved.
 
-The organisations that recovered in hours had this in place before the incident:
+The organizations that recovered in hours had this in place before the incident:
 - Printed emergency contact lists
 - Tested manual operational fallbacks
 - Staged update rollout policies preventing simultaneous impact

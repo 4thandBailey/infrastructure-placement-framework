@@ -8,7 +8,7 @@
 
 ## Purpose
 
-This scorecard identifies and scores the concentration risk created by hyperscaler dependencies across the organisation's workload portfolio. High concentration in a single provider creates financial, operational, and strategic risk — particularly when repatriation is being considered.
+This scorecard identifies and scores the concentration risk created by hyperscaler dependencies across the organization's workload portfolio. High concentration in a single provider creates financial, operational, and strategic risk — particularly when repatriation is being considered.
 
 This scorecard should be completed in conjunction with the repatriation readiness assessment and updated whenever the workload portfolio changes significantly.
 
@@ -70,7 +70,7 @@ Rate the depth of dependency on cloud-native services:
 **Migration complexity rating:**
 - Average 1.0–2.0 = Low complexity — straightforward migration
 - Average 2.1–3.5 = Moderate complexity — planning and engineering required
-- Average 3.6–5.0 = High complexity — multi-phase programme required
+- Average 3.6–5.0 = High complexity — multi-phase program required
 
 ---
 
@@ -102,7 +102,7 @@ Based on the concentration and dependency assessment:
 ## Review cadence
 
 This scorecard should be reviewed:
-- **Annually** as part of the Module 3 hybrid estate optimisation review
+- **Annually** as part of the Module 3 hybrid estate optimization review
 - **Triggered** when a new major workload is deployed to a hyperscaler
 - **Triggered** when a hyperscaler announces significant pricing, API, or product changes
 

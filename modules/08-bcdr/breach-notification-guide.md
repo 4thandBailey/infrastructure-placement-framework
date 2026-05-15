@@ -47,7 +47,7 @@ Identify all categories of personal data that may have been involved:
 
 **Who it applies to:** Healthcare providers, health plans, healthcare clearinghouses, and their business associates.
 
-**What triggers notification:** Unauthorized access, use, or disclosure of PHI unless the organisation can demonstrate a low probability that PHI has been compromised (4-factor risk assessment required).
+**What triggers notification:** Unauthorized access, use, or disclosure of PHI unless the organization can demonstrate a low probability that PHI has been compromised (4-factor risk assessment required).
 
 | Recipient | Deadline | Method | Notes |
 |---|---|---|---|
@@ -62,7 +62,7 @@ Identify all categories of personal data that may have been involved:
 - What the covered entity is doing to investigate, mitigate, and prevent recurrence
 - Contact information for questions
 
-**HIPAA notification template — obtain legal review of organisation-specific version before incident.**
+**HIPAA notification template — obtain legal review of organization-specific version before incident.**
 
 ---
 
@@ -72,7 +72,7 @@ Identify all categories of personal data that may have been involved:
 
 **What triggers notification:** Unauthorized acquisition of computerised data that compromises the security, confidentiality, or integrity of sensitive personal information.
 
-**Sensitive personal information includes:** Name + SSN, driver's licence/state ID, account number + access code/password, debit/credit card number + code, or certain medical information.
+**Sensitive personal information includes:** Name + SSN, driver's license/state ID, account number + access code/password, debit/credit card number + code, or certain medical information.
 
 | Recipient | Deadline | Method | Notes |
 |---|---|---|---|
@@ -83,7 +83,7 @@ Identify all categories of personal data that may have been involved:
 
 ### PCI-DSS (Payment Card Data)
 
-**Who it applies to:** Any organisation that processes, stores, or transmits cardholder data.
+**Who it applies to:** Any organization that processes, stores, or transmits cardholder data.
 
 **What triggers notification:** Confirmed or suspected compromise of cardholder data.
 
@@ -125,7 +125,7 @@ Identify all categories of personal data that may have been involved:
 
 ### GDPR (EU Resident Personal Data)
 
-**Who it applies to:** Any organisation processing EU/EEA resident personal data, regardless of where the organisation is located.
+**Who it applies to:** Any organization processing EU/EEA resident personal data, regardless of where the organization is located.
 
 | Recipient | Deadline | Method | Notes |
 |---|---|---|---|

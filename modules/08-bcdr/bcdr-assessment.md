@@ -4,7 +4,7 @@
 
 ---
 
-**Organisation:** _______________________________________________
+**Organization:** _______________________________________________
 
 **Assessment date:** _______________________________________________
 
@@ -125,8 +125,8 @@
 |---|---|
 | 85–100% | Strong BCDR posture — maintain and test regularly |
 | 70–84% | Good foundation — address identified gaps within 60 days |
-| 50–69% | Significant gaps — structured remediation programme required |
-| Below 50% | Critical gaps — immediate action required; organisation is exposed |
+| 50–69% | Significant gaps — structured remediation program required |
+| Below 50% | Critical gaps — immediate action required; organization is exposed |
 
 ---
 

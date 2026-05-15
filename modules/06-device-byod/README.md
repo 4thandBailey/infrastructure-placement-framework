@@ -15,9 +15,9 @@ Are your devices governed under the right ownership model for each role — and 
 | Model | Who owns it | Best for |
 |---|---|---|
 | BYOD — Bring Your Own Device | Employee | Knowledge workers with low data sensitivity, cost-sensitive environments |
-| CYOD — Choose Your Own Device | Organisation (employee selects from approved list) | Balance of preference and control |
-| COPE — Corporate-Owned, Personally Enabled | Organisation | Roles with moderate-to-high data sensitivity who need personal flexibility |
-| COBO — Corporate-Owned, Business Only | Organisation | High-security roles, regulated environments, field operations |
+| CYOD — Choose Your Own Device | Organization (employee selects from approved list) | Balance of preference and control |
+| COPE — Corporate-Owned, Personally Enabled | Organization | Roles with moderate-to-high data sensitivity who need personal flexibility |
+| COBO — Corporate-Owned, Business Only | Organization | High-security roles, regulated environments, field operations |
 
 ---
 

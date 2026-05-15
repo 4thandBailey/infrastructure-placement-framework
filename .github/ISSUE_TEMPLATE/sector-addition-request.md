@@ -39,7 +39,7 @@ Do you have domain expertise in this sector?
 - [ ] Partially — I have some familiarity
 - [ ] No — I'm submitting based on public information
 
-**Organisation type (optional):**
+**Organization type (optional):**
 
 ---
 

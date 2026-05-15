@@ -2,7 +2,7 @@
 
 **Infrastructure Placement Framework · 4th and Bailey · v1.0.0**
 
-Use this decision tree for rapid initial triage before completing the full scored assessment. It does not replace the scored assessment — it identifies which path to prioritise and surfaces hard constraints early.
+Use this decision tree for rapid initial triage before completing the full scored assessment. It does not replace the scored assessment — it identifies which path to prioritize and surfaces hard constraints early.
 
 ---
 
@@ -35,13 +35,13 @@ Examples: manufacturing OT systems, real-time diagnostics, SCADA/industrial cont
 Indicators of steady-state: consistent CPU/memory utilisation, predictable traffic patterns, high monthly cloud bill for consistent workloads, running 24/7 at near-constant resource levels.
 
 - **YES (steady-state, high scale)** → On-premises or private cloud likely more cost-effective. Run 3-year TCO comparison. Proceed to Step 4.
-- **NO (bursty or unpredictable)** → Cloud economics likely favourable. Proceed to Step 4.
+- **NO (bursty or unpredictable)** → Cloud economics likely favorable. Proceed to Step 4.
 
 ---
 
 ## Step 4 — VMware/Broadcom exposure
 
-> Is this workload running on VMware infrastructure, and is the organisation affected by Broadcom's 2024 licensing changes?
+> Is this workload running on VMware infrastructure, and is the organization affected by Broadcom's 2024 licensing changes?
 
 - **YES** → Repatriation or virtualisation platform migration may be financially urgent. Initiate Module 2 (Cloud Repatriation Readiness). Flag this workload as priority for full scored assessment.
 - **NO** → Proceed to Step 5.

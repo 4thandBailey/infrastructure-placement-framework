@@ -1,18 +1,18 @@
 ---
 name: Assessment request
 about: Request a guided assessment with 4th and Bailey
-title: "[ASSESSMENT] Organisation name — primary concern"
+title: "[ASSESSMENT] Organization name — primary concern"
 labels: assessment-request
 assignees: ''
 ---
 
-## Organisation information
+## Organization information
 
-**Organisation name:**
+**Organization name:**
 
 **Industry sector:** (Healthcare / Legal / Energy / Financial / Logistics / Other)
 
-**Organisation size:** (< 50 / 50–250 / 250–1,000 / 1,000+)
+**Organization size:** (< 50 / 50–250 / 250–1,000 / 1,000+)
 
 **Primary location:**
 
@@ -40,7 +40,7 @@ Select all that apply:
 
 - [ ] Module 1 — Workload placement assessment
 - [ ] Module 2 — Cloud repatriation readiness
-- [ ] Module 3 — Hybrid estate optimisation
+- [ ] Module 3 — Hybrid estate optimization
 - [ ] Module 4 — Cyber resilience and business continuity
 - [ ] Module 5 — AI governance and NIST alignment
 - [ ] Module 6 — End-user device and BYOD strategy

@@ -33,7 +33,7 @@ Complete one copy of this template for each mission-critical vendor or platform.
 
 ## Section 2 — Exit triggers
 
-Under what circumstances would the organisation initiate an exit from this vendor?
+Under what circumstances would the organization initiate an exit from this vendor?
 
 - [ ] Vendor insolvency or acquisition
 - [ ] Unacceptable price increase (threshold: ____%)

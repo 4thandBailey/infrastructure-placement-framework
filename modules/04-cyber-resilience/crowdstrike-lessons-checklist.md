@@ -10,9 +10,9 @@
 
 On July 19, 2024, a faulty content update from CrowdStrike Falcon caused 8.5 million Windows systems globally to enter a boot loop. The root cause was not a cyberattack. It was a trusted, widely deployed security vendor pushing an update that had not been sufficiently tested against production configurations.
 
-The organisations that recovered in hours had specific controls in place. The organisations that took days did not.
+The organizations that recovered in hours had specific controls in place. The organizations that took days did not.
 
-This checklist documents the controls that the CrowdStrike incident demonstrated were essential. It is scored as a binary pass/fail. A score below 80% requires an immediate remediation programme.
+This checklist documents the controls that the CrowdStrike incident demonstrated were essential. It is scored as a binary pass/fail. A score below 80% requires an immediate remediation program.
 
 **Assessment date:** _______________________________________________
 
@@ -68,7 +68,7 @@ The single most impactful control: do not allow any vendor to simultaneously upd
 
 ## Section D — Manual operational fallbacks
 
-The organisations that kept operating during the CrowdStrike outage had manual fallbacks. Those that didn't had no way to function when their systems were offline.
+The organizations that kept operating during the CrowdStrike outage had manual fallbacks. Those that didn't had no way to function when their systems were offline.
 
 | # | Control | Pass ✅ | Fail ❌ | Notes |
 |---|---|---|---|---|
@@ -132,7 +132,7 @@ The organisations that kept operating during the CrowdStrike outage had manual f
 |---|---|---|
 | 90–100% | Strong vendor update governance | Annual review; maintain |
 | 80–89% | Good baseline; gaps are specific | Address failing items within 60 days |
-| 60–79% | Significant gaps present | Remediation programme required within 30 days |
+| 60–79% | Significant gaps present | Remediation program required within 30 days |
 | Below 60% | Critical gaps | Immediate remediation; do not wait for next review cycle |
 
 **Current score: ____% — Status:** _______________________________________________

@@ -6,7 +6,7 @@
 
 ## Sector overview
 
-Financial services organisations — banks, credit unions, investment firms, insurance companies, and financial technology businesses — operate under some of the most demanding regulatory environments for data governance and infrastructure security. SOX, PCI-DSS, GLBA, and (for larger institutions) OCC/Federal Reserve guidance create layered compliance obligations. Trading latency requirements for capital markets participants can make cloud architecturally incompatible with certain workloads regardless of cost.
+Financial services organizations — banks, credit unions, investment firms, insurance companies, and financial technology businesses — operate under some of the most demanding regulatory environments for data governance and infrastructure security. SOX, PCI-DSS, GLBA, and (for larger institutions) OCC/Federal Reserve guidance create layered compliance obligations. Trading latency requirements for capital markets participants can make cloud architecturally incompatible with certain workloads regardless of cost.
 
 The financial sector is also among the most targeted by ransomware and data breach actors. The combination of high regulatory penalty exposure and high data value makes the cyber resilience and BCDR modules particularly critical.
 
@@ -60,7 +60,7 @@ The financial sector is also among the most targeted by ransomware and data brea
 | Regulation | Scope | Impact |
 |---|---|---|
 | SOX (Sarbanes-Oxley) | Public companies — financial reporting integrity | IT controls over financial reporting systems must be documented, tested, and audited |
-| PCI-DSS | All organisations processing card payments | Cardholder data environment must meet PCI controls; cloud placement must be within PCI scope |
+| PCI-DSS | All organizations processing card payments | Cardholder data environment must meet PCI controls; cloud placement must be within PCI scope |
 | GLBA Safeguards Rule | Financial institutions under FTC jurisdiction | Customer financial data protection; 30-day breach notification |
 | Bank Secrecy Act / AML | Banks and money services businesses | Transaction data retention and monitoring requirements |
 | FFIEC guidance | Federally regulated financial institutions | IT examination guidance; risk management expectations |

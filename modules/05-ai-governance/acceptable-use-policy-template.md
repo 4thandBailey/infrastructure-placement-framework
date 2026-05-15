@@ -2,7 +2,7 @@
 
 **[ORGANISATION NAME] — AI Tools Acceptable Use Policy**
 
-*Template · Customise for your organisation · Requires legal review before adoption*
+*Template · Customise for your organization · Requires legal review before adoption*
 
 **Version:** 1.0 | **Effective date:** [DATE] | **Review date:** [DATE + 12 months]
 
@@ -12,7 +12,7 @@
 
 ## 1. Purpose
 
-This policy defines acceptable use of artificial intelligence (AI) tools by [ORGANISATION NAME] employees, contractors, and any other individuals who use AI tools in connection with their work for the organisation.
+This policy defines acceptable use of artificial intelligence (AI) tools by [ORGANISATION NAME] employees, contractors, and any other individuals who use AI tools in connection with their work for the organization.
 
 AI tools offer significant productivity benefits. They also introduce risks including data exposure, intellectual property disclosure, regulatory non-compliance, and the introduction of inaccurate outputs into business processes. This policy manages those risks while enabling productive AI use.
 
@@ -58,7 +58,7 @@ Regardless of tool or context, do not enter:
 - Patient health information (PHI) of any kind
 - Client, customer, or patient names combined with any other identifying information
 - Financial account numbers, payment card data, or banking information
-- Social Security numbers, driver's licence numbers, or government ID numbers
+- Social Security numbers, driver's license numbers, or government ID numbers
 - Proprietary source code, trade secrets, or unpublished product information
 - Pending litigation, legal strategy, or attorney-client privileged communications
 - Employee personal data, HR records, or disciplinary information
@@ -114,13 +114,13 @@ Report any of the following to [IT/SECURITY TEAM] immediately:
 
 ## 10. Policy violations
 
-Violations of this policy may result in disciplinary action up to and including termination of employment, and may create personal and organisational legal liability.
+Violations of this policy may result in disciplinary action up to and including termination of employment, and may create personal and organizational legal liability.
 
 ---
 
 ## 11. Review
 
-This policy is reviewed annually or whenever a significant change to AI tools, regulatory requirements, or organisational AI usage makes a review necessary.
+This policy is reviewed annually or whenever a significant change to AI tools, regulatory requirements, or organizational AI usage makes a review necessary.
 
 ---
 

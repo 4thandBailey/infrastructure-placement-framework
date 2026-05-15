@@ -6,7 +6,7 @@
 
 ## Sector overview
 
-Healthcare organisations face the most constrained infrastructure placement environment of any sector in this framework. HIPAA creates hard placement rules for Protected Health Information (PHI) that override cost and performance optimisation in almost every case. Real-time clinical workloads add latency requirements that cloud cannot always meet. And the consequences of a breach — regulatory, financial, and reputational — are among the highest of any industry.
+Healthcare organizations face the most constrained infrastructure placement environment of any sector in this framework. HIPAA creates hard placement rules for Protected Health Information (PHI) that override cost and performance optimization in almost every case. Real-time clinical workloads add latency requirements that cloud cannot always meet. And the consequences of a breach — regulatory, financial, and reputational — are among the highest of any industry.
 
 This sector variant adjusts scoring weights and adds domain-specific questions for each module.
 
@@ -16,7 +16,7 @@ This sector variant adjusts scoring weights and adds domain-specific questions f
 
 | Dimension | Base weight | Healthcare weight | Rationale |
 |---|---|---|---|
-| Compliance and data sovereignty | 25% | **35%** | HIPAA PHI requirements create hard placement constraints that override cost optimisation |
+| Compliance and data sovereignty | 25% | **35%** | HIPAA PHI requirements create hard placement constraints that override cost optimization |
 | Cost gravity | 25% | **15%** | Cost is still relevant but cannot override compliance |
 | Latency and performance tolerance | 20% | **25%** | Real-time diagnostics, EHR performance, and clinical workflow latency are patient safety issues |
 | Private AI infrastructure fit | 15% | **15%** | Unchanged — but AI on PHI is a HIPAA concern; see Module 5 |
@@ -79,7 +79,7 @@ Additional questions for healthcare workloads:
 
 ## Healthcare-specific contacts
 
-For organisations served by 4th and Bailey in the healthcare sector:
+For organizations served by 4th and Bailey in the healthcare sector:
 
 **4th and Bailey** · 4thandbailey.com · (888) 305-5977
 2500 CityWest Blvd., Suite #150-165 · Houston, TX 77042

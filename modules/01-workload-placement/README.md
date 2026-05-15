@@ -18,8 +18,8 @@ This module provides a five-dimension scoring model for evaluating each workload
 
 - **Public cloud** — hyperscaler IaaS/PaaS (AWS, Azure, GCP)
 - **Private cloud** — on-premises virtualised infrastructure
-- **Colocation** — organisation-owned hardware in a third-party data centre
-- **On-premises** — organisation-owned hardware in organisation-owned facilities
+- **Colocation** — organization-owned hardware in a third-party data centre
+- **On-premises** — organization-owned hardware in organization-owned facilities
 - **Edge** — compute at or near the point of data generation (OT, IoT, field operations)
 
 ---
@@ -76,7 +76,7 @@ Scoring weights are adjusted for the following sectors. See `/sectors/` for sect
 | If this module reveals... | Proceed to... |
 |---|---|
 | Significant workloads currently in cloud that score for on-premises | Module 2 — Cloud repatriation readiness |
-| Existing hybrid estate with placement gaps | Module 3 — Hybrid estate optimisation |
+| Existing hybrid estate with placement gaps | Module 3 — Hybrid estate optimization |
 | VMware/Broadcom licensing exposure driving urgent decisions | Module 2 — Repatriation readiness |
 | AI workloads processing sensitive data in public cloud | Module 5 — AI governance and NIST alignment |
 

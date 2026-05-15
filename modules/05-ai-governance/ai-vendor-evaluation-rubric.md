@@ -2,7 +2,7 @@
 
 **Infrastructure Placement Framework · 4th and Bailey · v1.0.0**
 
-Complete this rubric when evaluating a new AI tool or vendor for organisational approval.
+Complete this rubric when evaluating a new AI tool or vendor for organizational approval.
 
 ---
 
@@ -34,7 +34,7 @@ Complete this rubric when evaluating a new AI tool or vendor for organisational 
 |---|---|---|
 | Does the vendor hold SOC 2 Type II certification? | Yes=3 / In progress=1 / No=0 | |
 | Does the vendor hold ISO 27001? | Yes=2 / No=0 | |
-| For healthcare organisations: is the vendor HIPAA-compliant and willing to sign BAA? | Yes=3 / No=0 / N/A=3 | |
+| For healthcare organizations: is the vendor HIPAA-compliant and willing to sign BAA? | Yes=3 / No=0 / N/A=3 | |
 | Does the vendor provide an incident response SLA? | Yes=2 / No=0 | |
 | Has the vendor had a significant security incident in the last 24 months? | No=2 / Yes=-2 / Unknown=0 | |
 

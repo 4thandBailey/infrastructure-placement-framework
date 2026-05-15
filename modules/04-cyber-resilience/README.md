@@ -6,7 +6,7 @@
 
 ## The question
 
-Does your organisation have documented, tested answers to the three questions every business leader needs answered before a crisis?
+Does your organization have documented, tested answers to the three questions every business leader needs answered before a crisis?
 
 ---
 
@@ -14,7 +14,7 @@ Does your organisation have documented, tested answers to the three questions ev
 
 On July 19, 2024, a routine security update from CrowdStrike caused 8.5 million Windows systems to crash globally. The damage exceeded $10 billion. Delta Airlines took five days to recover, losing over $500 million. This was not a cyberattack. It was a trusted vendor making a routine change. No firewall, no antivirus, no password policy would have stopped it.
 
-The organisations that recovered in hours had already answered three questions. Most had not.
+The organizations that recovered in hours had already answered three questions. Most had not.
 
 ---
 
@@ -26,7 +26,7 @@ Most businesses believe their data is protected because they pay for a cloud ser
 
 ### Q2 — How do we keep operating if a vendor goes offline?
 
-Every IaaS, PaaS, and SaaS provider you depend on will experience an outage. The question is whether your organisation has mapped critical functions, defined manual fallbacks, established RTO/RPO targets, and tested them.
+Every IaaS, PaaS, and SaaS provider you depend on will experience an outage. The question is whether your organization has mapped critical functions, defined manual fallbacks, established RTO/RPO targets, and tested them.
 
 ### Q3 — How do we move our data if a platform stops serving us?
 

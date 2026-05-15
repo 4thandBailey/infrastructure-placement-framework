@@ -8,7 +8,7 @@
 
 ---
 
-**Organisation:** _______________________________________________
+**Organization:** _______________________________________________
 
 **Incident Commander:** _______________________________________________
 
@@ -119,7 +119,7 @@ This decision must be made by the designated authority (defined below), with inp
 - Cyber insurance carrier (coverage, approved payment process)
 - Law enforcement (FBI guidance, sanctions risks)
 
-**Paying ransom does not guarantee data recovery.** Approximately 20% of organisations that pay ransom do not receive a working decryption key.
+**Paying ransom does not guarantee data recovery.** Approximately 20% of organizations that pay ransom do not receive a working decryption key.
 
 **Ransom payment decision authority:**
 

@@ -12,7 +12,7 @@
 
 ## Section 1 — Critical function inventory
 
-Identify every function the organisation must be able to perform to remain operational. For each, define the maximum acceptable downtime and the minimum acceptable capacity.
+Identify every function the organization must be able to perform to remain operational. For each, define the maximum acceptable downtime and the minimum acceptable capacity.
 
 | Function | Business unit | Tier | Max downtime | Depends on (systems/vendors) | Manual fallback exists? |
 |---|---|---|---|---|---|

@@ -20,7 +20,7 @@ Any change to the scoring methodology requires an update to this document. Chang
 
 **2. Evidence over instinct.** Every placement recommendation must be traceable to scored criteria. The Architecture Decision Record template exists to document the reasoning, not just the conclusion.
 
-**3. Sector sensitivity.** A workload placement decision for a healthcare organisation and the same decision for a logistics firm involve fundamentally different regulatory constraints. Scoring weights are adjusted by sector variant, not applied as universal constants.
+**3. Sector sensitivity.** A workload placement decision for a healthcare organization and the same decision for a logistics firm involve fundamentally different regulatory constraints. Scoring weights are adjusted by sector variant, not applied as universal constants.
 
 **4. Honest scope.** This framework is a structured starting point, not a definitive answer. Assessments identify the right questions and score the available evidence — they do not replace domain expertise or legal counsel for regulated decisions.
 
@@ -36,12 +36,12 @@ Each workload is scored across five dimensions. Each dimension is rated 1–5. T
 
 **Cost gravity (weight: 25%)**
 
-Measures whether the workload's cost profile favours cloud economics or private/on-premises infrastructure over a three-year TCO horizon.
+Measures whether the workload's cost profile favors cloud economics or private/on-premises infrastructure over a three-year TCO horizon.
 
 | Score | Interpretation |
 |---|---|
 | 5 | Highly variable/bursty workload — cloud pay-per-use economics are clearly superior |
-| 4 | Moderately variable — cloud economics slightly favourable |
+| 4 | Moderately variable — cloud economics slightly favorable |
 | 3 | Mixed profile — cost roughly equivalent across tiers |
 | 2 | Predominantly steady-state — private infrastructure becoming more cost-effective at scale |
 | 1 | Steady-state, high-volume workload — private/on-premises clearly more cost-effective at 3-year TCO |
@@ -54,7 +54,7 @@ Measures whether the workload can tolerate the latency inherent in cloud-based d
 |---|---|
 | 5 | Latency-tolerant — no performance requirement that cloud cannot meet |
 | 4 | Low sensitivity — minor latency acceptable |
-| 3 | Moderate sensitivity — some latency impact acceptable with optimisation |
+| 3 | Moderate sensitivity — some latency impact acceptable with optimization |
 | 2 | High sensitivity — latency is architecturally constraining; cloud requires significant engineering |
 | 1 | Latency-critical — cloud is architecturally wrong for this workload regardless of cost |
 
@@ -112,7 +112,7 @@ A weighted composite score is calculated across all five dimensions. The resulti
 
 ## Scoring model — Module 2 (Repatriation readiness)
 
-Repatriation readiness is assessed across five organisational dimensions. Each is rated as a readiness level (Not started / In progress / Established / Optimised).
+Repatriation readiness is assessed across five organizational dimensions. Each is rated as a readiness level (Not started / In progress / Established / Optimized).
 
 | Dimension | What it measures |
 |---|---|
@@ -130,13 +130,13 @@ A readiness score below 60% in any dimension is a flagged risk that must be addr
 
 The third-party risk scorecard rates each critical vendor across five dimensions: data access level, single-point-of-failure risk, contractual portability, incident history, and update governance. Vendors with a combined risk score above the threshold are flagged for remediation or exit planning.
 
-The CrowdStrike lessons checklist is binary — each control is either in place (pass) or not (fail). A score below 80% pass rate triggers an immediate remediation programme.
+The CrowdStrike lessons checklist is binary — each control is either in place (pass) or not (fail). A score below 80% pass rate triggers an immediate remediation program.
 
 ---
 
 ## Scoring model — Module 5 (AI governance)
 
-The NIST AI RMF assessment scores each of the four RMF functions (Govern, Map, Measure, Manage) across the organisation. Each function is scored 0–25, for a maximum total of 100.
+The NIST AI RMF assessment scores each of the four RMF functions (Govern, Map, Measure, Manage) across the organization. Each function is scored 0–25, for a maximum total of 100.
 
 | Score range | Maturity level |
 |---|---|
@@ -144,7 +144,7 @@ The NIST AI RMF assessment scores each of the four RMF functions (Govern, Map, M
 | 25 – 49 | Developing — some controls in place, not systematic |
 | 50 – 74 | Defined — documented governance with gaps |
 | 75 – 89 | Managed — systematic, measured governance |
-| 90 – 100 | Optimising — continuous improvement programme |
+| 90 – 100 | Optimising — continuous improvement program |
 
 The shadow AI audit is reported separately as a risk register — each identified tool is rated by data sensitivity accessed, regulatory risk, and remediation priority.
 
@@ -156,7 +156,7 @@ Sector variants adjust the weighting of scoring dimensions to reflect the domina
 
 | Sector | Compliance weight | Cost gravity weight | Rationale |
 |---|---|---|---|
-| Healthcare | 35% | 15% | HIPAA, PHI sovereignty, and data residency requirements override cost optimisation |
+| Healthcare | 35% | 15% | HIPAA, PHI sovereignty, and data residency requirements override cost optimization |
 | Legal | 30% | 20% | Client data sovereignty and matter management confidentiality constraints |
 | Financial services | 35% | 15% | SOX, PCI-DSS, GLBA, and trading latency create hard placement constraints |
 | Energy / Oil & Gas | 25% | 20% | NERC CIP and OT/IT convergence add compliance weight; remote site costs also significant |

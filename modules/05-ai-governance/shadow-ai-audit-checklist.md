@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Shadow AI — employees using unapproved AI tools without IT oversight — is present in virtually every organisation. This checklist identifies what AI tools are in use, what data has been exposed, and what regulatory liability exists.
+Shadow AI — employees using unapproved AI tools without IT oversight — is present in virtually every organization. This checklist identifies what AI tools are in use, what data has been exposed, and what regulatory liability exists.
 
 **Assessment date:** _______________________________________________
 
@@ -104,7 +104,7 @@ For each AI tool in use, has the vendor confirmed:
 
 ## Section 5 — Recommended immediate actions
 
-Based on findings, prioritise the following:
+Based on findings, prioritize the following:
 
 **Immediate (within 30 days):**
 - [ ] Block confirmed high-risk shadow AI tools at the network/proxy level

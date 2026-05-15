@@ -36,12 +36,12 @@
 | New AI tool adopted or shadow AI identified | Module 5 — update audit and policy | |
 | Device or MDM changes | Module 6 — update device matrix | |
 
-### 1.3 Platform and licence changes
+### 1.3 Platform and license changes
 
 | Change | Module affected | Action required |
 |---|---|---|
 | Collaboration platform change | Module 7 — governance baseline review | |
-| Significant licence change (M365, Workspace, etc.) | Module 7 — licence optimisation | |
+| Significant license change (M365, Workspace, etc.) | Module 7 — license optimization | |
 | New BYOD or device policy | Module 6 — policy update | |
 
 ---
@@ -52,7 +52,7 @@
 |---|---|---|---|
 | 1 — Workload placement | | | Current / Needs update |
 | 2 — Repatriation readiness | | | Current / Needs update |
-| 3 — Hybrid optimisation | | | Current / Needs update |
+| 3 — Hybrid optimization | | | Current / Needs update |
 | 4 — Cyber resilience | | | Current / Needs update |
 | 5 — AI governance | | | Current / Needs update |
 | 6 — Device / BYOD | | | Current / Needs update |
@@ -71,7 +71,7 @@ These actions are required every quarter regardless of what changed:
 | Governance checklist review | 3 | Yes / No | |
 | Third-party risk register review | 4 | Yes / No | |
 | Shadow AI discovery sweep | 5 | Yes / No | |
-| Licence utilisation review (M365 / Workspace) | 7 | Yes / No | |
+| License utilisation review (M365 / Workspace) | 7 | Yes / No | |
 | Tabletop exercise | 8 | Yes / No | |
 | BCDR plan contact information verification | 8 | Yes / No | |
 
@@ -105,7 +105,7 @@ Track these metrics each quarter to measure progress:
 |---|---|---|---|
 | Workloads with current ADR (%) | | | ↑ / ↓ / → |
 | Cloud cost vs. budget | | | ↑ / ↓ / → |
-| M365 / Workspace licence utilisation (%) | | | ↑ / ↓ / → |
+| M365 / Workspace license utilisation (%) | | | ↑ / ↓ / → |
 | Open security findings from governance checklist | | | ↑ / ↓ / → |
 | Shadow AI tools identified this quarter | | | ↑ / ↓ / → |
 | BCDR tabletop exercises completed (year-to-date) | | | |

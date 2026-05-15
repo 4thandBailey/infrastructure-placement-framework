@@ -15,7 +15,7 @@ Complete one copy of this assessment for each workload being evaluated. A "workl
 4. Document the recommendation in an Architecture Decision Record (`/templates/workload-adr.md`)
 5. Review the full portfolio — placement decisions interact with each other
 
-**Time estimate:** 30–60 minutes per workload for an experienced IT practitioner. Initial portfolio inventory may take 2–4 hours for a typical mid-market organisation.
+**Time estimate:** 30–60 minutes per workload for an experienced IT practitioner. Initial portfolio inventory may take 2–4 hours for a typical mid-market organization.
 
 ---
 
@@ -57,10 +57,10 @@ The 3-year Total Cost of Ownership comparison across placement options. This sho
 
 | Score | Description |
 |---|---|
-| 5 | Highly variable or bursty workload — cloud pay-per-use economics clearly superior; 3-year TCO favours cloud |
-| 4 | Moderately variable workload — cloud economics slightly favourable; private infrastructure approaching parity |
+| 5 | Highly variable or bursty workload — cloud pay-per-use economics clearly superior; 3-year TCO favors cloud |
+| 4 | Moderately variable workload — cloud economics slightly favorable; private infrastructure approaching parity |
 | 3 | Mixed cost profile — TCO roughly equivalent across tiers within 10–15% margin |
-| 2 | Predominantly steady-state workload — private infrastructure more cost-effective at scale; 3-year TCO favours private |
+| 2 | Predominantly steady-state workload — private infrastructure more cost-effective at scale; 3-year TCO favors private |
 | 1 | High-volume, steady-state workload — on-premises clearly most cost-effective at 3-year TCO; cloud premium not justified |
 
 **Supporting data (required for scores of 1 or 5):**
@@ -83,7 +83,7 @@ Whether the workload can tolerate the latency inherent in cloud-based delivery, 
 |---|---|
 | 5 | No latency sensitivity — workload functions normally with 50–100ms+ round-trip latency |
 | 4 | Low latency sensitivity — minor latency acceptable; cloud with CDN or regional deployment sufficient |
-| 3 | Moderate sensitivity — some latency impact acceptable with architectural optimisation (caching, edge nodes) |
+| 3 | Moderate sensitivity — some latency impact acceptable with architectural optimization (caching, edge nodes) |
 | 2 | High sensitivity — latency is constraining; cloud requires significant additional engineering to meet requirements |
 | 1 | Latency-critical — sub-millisecond or deterministic latency required; cloud is architecturally wrong regardless of cost |
 
@@ -160,7 +160,7 @@ The extent to which the workload is subject to vendor lock-in that limits placem
 
 **VMware/Broadcom exposure checklist:**
 - [ ] Workload runs on VMware vSphere / ESXi
-- [ ] Organisation is on VMware perpetual licences affected by Broadcom's 2024 pricing changes
+- [ ] Organization is on VMware perpetual licenses affected by Broadcom's 2024 pricing changes
 - [ ] No VMware dependency
 
 **Additional lock-in indicators:**
@@ -217,7 +217,7 @@ The extent to which the workload is subject to vendor lock-in that limits placem
 ## Next steps
 
 - [ ] Complete Architecture Decision Record at `/templates/workload-adr.md`
-- [ ] If recommendation differs from current placement: initiate Module 2 (repatriation) or Module 3 (optimisation)
+- [ ] If recommendation differs from current placement: initiate Module 2 (repatriation) or Module 3 (optimization)
 - [ ] If AI dimension scored 1 or 2: initiate Module 5 (AI governance)
 - [ ] Schedule review date: _______________________ (placement decisions should be reviewed annually)
 

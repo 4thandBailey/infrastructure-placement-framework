@@ -1,6 +1,6 @@
-# Module 5 — SMB AI Readiness Programme
+# Module 5 — SMB AI Readiness Program
 
-**90-Day Structured AI Adoption Programme**
+**90-Day Structured AI Adoption Program**
 
 **Infrastructure Placement Framework · 4th and Bailey · v1.0.0**
 
@@ -8,7 +8,7 @@
 
 ## Who this is for
 
-Small and mid-size businesses that want to adopt AI tools productively but don't know where to start. This programme answers three questions SMBs actually have:
+Small and mid-size businesses that want to adopt AI tools productively but don't know where to start. This program answers three questions SMBs actually have:
 
 1. **What is safe to use?** — which tools are appropriate for your data and your sector
 2. **Where do we start?** — which use cases deliver value fastest
@@ -18,7 +18,7 @@ Structured on NIST AI RMF 1.0.
 
 ---
 
-## Programme overview
+## Program overview
 
 | Phase | Weeks | Focus |
 |---|---|---|
@@ -39,7 +39,7 @@ Structured on NIST AI RMF 1.0.
 - [ ] Send employee survey about current AI tool usage
 
 ### Week 2 — Use case inventory
-Identify and prioritise AI use cases for your organisation:
+Identify and prioritize AI use cases for your organization:
 
 | Use case | Business function | Potential value | Data sensitivity | Priority |
 |---|---|---|---|---|
@@ -76,7 +76,7 @@ Identify and prioritise AI use cases for your organisation:
 
 ### Week 6 — Technical controls
 - [ ] Configure proxy/firewall to block or monitor non-approved AI tool domains
-- [ ] Enable organisational controls in approved tools (data residency, opt-out of training)
+- [ ] Enable organizational controls in approved tools (data residency, opt-out of training)
 - [ ] Set up usage logging for approved AI tools
 
 **Phase 2 output:** Adopted acceptable use policy + technical controls in place + staff awareness delivered
@@ -123,9 +123,9 @@ Identify and prioritise AI use cases for your organisation:
 - [ ] Identify use cases ready for broader rollout
 - [ ] Identify use cases for Phase 2 that require additional governance
 - [ ] Complete NIST AI RMF assessment to establish formal maturity score (`nist-ai-rmf-assessment.md`)
-- [ ] Plan Phase 2 programme (next 90 days)
+- [ ] Plan Phase 2 program (next 90 days)
 
-**Phase 4 output:** ROI report + incident summary + Phase 2 programme plan + NIST RMF baseline score
+**Phase 4 output:** ROI report + incident summary + Phase 2 program plan + NIST RMF baseline score
 
 ---
 
@@ -141,4 +141,4 @@ This is not a technology transformation. It is a governance foundation that make
 
 ---
 
-*Infrastructure Placement Framework · Module 5 SMB AI Readiness Programme · 4th and Bailey · v1.0.0*
+*Infrastructure Placement Framework · Module 5 SMB AI Readiness Program · 4th and Bailey · v1.0.0*
