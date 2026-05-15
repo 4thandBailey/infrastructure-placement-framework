@@ -16,13 +16,13 @@ A vendor-neutral, open-source enterprise IT framework for cloud migration, cloud
 
 ## What this framework solves
 
-**Infrastructure pressure.** Cloud costs are rising. 86% of CIOs planned to repatriate at least some workloads back on-premises in 2025 (Barclays CIO Survey). The question is no longer "should we go to cloud?" — it is "which workload belongs in which environment, and how do we prove that decision was the right one?" Most organisations are navigating this without a structured methodology, making placement decisions workload by workload without a unifying scoring model.
+**Infrastructure pressure.** Cloud costs are rising. 86% of CIOs planned to repatriate at least some workloads back on-premises in 2025 (Barclays CIO Survey). The question is no longer "should we go to cloud?" — it is "which workload belongs in which environment, and how do we prove that decision was the right one?" Most organizations are navigating this without a structured methodology, making placement decisions workload by workload without a unifying scoring model.
 
-**Security pressure.** The CrowdStrike outage of July 2024 demonstrated that a single routine vendor update can take down 8.5 million systems globally and cause over $10 billion in damage — without a single malicious actor involved. The organisations that recovered fastest had answers to three questions before the crisis: how do we protect our data, how do we keep operating if a vendor goes offline, and how do we exit a platform that stops serving us? Most did not.
+**Security pressure.** The CrowdStrike outage of July 2024 demonstrated that a single routine vendor update can take down 8.5 million systems globally and cause over $10 billion in damage — without a single malicious actor involved. The organizations that recovered fastest had answers to three questions before the crisis: how do we protect our data, how do we keep operating if a vendor goes offline, and how do we exit a platform that stops serving us? Most did not.
 
-**Governance pressure.** AI is now embedded in virtually every productivity tool, every cloud platform, and every personal device employees carry. Most organisations have no policy, no inventory, and no idea what data has already entered public AI systems through employee usage. The regulatory environment — driven by NIST AI RMF 1.0, NIST AI 600-1, and NIST IR 8596 — is catching up faster than most organisations are moving.
+**Governance pressure.** AI is now embedded in virtually every productivity tool, every cloud platform, and every personal device employees carry. Most organizations have no policy, no inventory, and no idea what data has already entered public AI systems through employee usage. The regulatory environment — driven by NIST AI RMF 1.0, NIST AI 600-1, and NIST IR 8596 — is catching up faster than most organizations are moving.
 
-This framework addresses all three pressures through eight interconnected modules. It is built for organisations that have outgrown commodity IT and need structured, vendor-neutral guidance to make infrastructure decisions that hold up under financial, regulatory, and operational scrutiny.
+This framework addresses all three pressures through eight interconnected modules. It is built for organizations that have outgrown commodity IT and need structured, vendor-neutral guidance to make infrastructure decisions that hold up under financial, regulatory, and operational scrutiny.
 
 ---
 
@@ -58,9 +58,9 @@ Three statistics define the landscape in 2026:
 
 - **86%** of CIOs planned to repatriate at least some public cloud workloads (Barclays CIO Survey Q4 2024) — most without a structured readiness framework
 - **$10 billion+** in damage from the CrowdStrike outage of July 2024 — caused by a trusted vendor's routine update, not a malicious actor
-- **64%** of organisations currently run both Microsoft 365 and Google Workspace simultaneously (Flexera 2025) — most without a coherent governance baseline for either
+- **64%** of organizations currently run both Microsoft 365 and Google Workspace simultaneously (Flexera 2025) — most without a coherent governance baseline for either
 
-Each of these represents a decision that most organisations are making — or failing to make — without a structured framework. This is that framework.
+Each of these represents a decision that most organizations are making — or failing to make — without a structured framework. This is that framework.
 
 ---
 
@@ -171,11 +171,11 @@ infrastructure-placement-framework/
 
 ## About 4th and Bailey
 
-4th and Bailey is an enterprise IT consulting firm headquartered in Houston, TX, serving organisations nationwide. We specialise in Cloud Services, Cybersecurity, Infrastructure Governance, and Technology Strategy for organisations that have outgrown commodity IT.
+4th and Bailey is an enterprise IT consulting firm headquartered in Houston, TX, serving organizations nationwide. We specialise in Cloud Services, Cybersecurity, Infrastructure Governance, and Technology Strategy for organizations that have outgrown commodity IT.
 
 We serve: Distribution & Wholesale · Education · Energy, Oil & Gas · Financial Institutions · Global Logistics & Carriers · Healthcare · Legal · Manufacturing · Non-Profit & Faith-Based · Professional Services · Property Management · Title Companies · Veterinary & Animal Hospitals
 
-This framework was built because the conversation about where technology belongs, how it is governed, and how organisations stay resilient takes place everywhere — in boardrooms, IT departments, leadership teams, and budget reviews across every industry we serve. That conversation deserves a structured starting point, a documented methodology, and a contact who can help turn the assessment into action.
+This framework was built because the conversation about where technology belongs, how it is governed, and how organizations stay resilient takes place everywhere — in boardrooms, IT departments, leadership teams, and budget reviews across every industry we serve. That conversation deserves a structured starting point, a documented methodology, and a contact who can help turn the assessment into action.
 
 **[Start a conversation](https://4thandbailey.com/contact)** · **[GitHub](https://github.com/4thandBailey)** · **(888) 305-5977**
 
