@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Workload Placement Assessment",
+  "description": "Machine-readable schema for Module 1 workload placement scoring. Version 1.0.0 — Infrastructure Placement Framework by 4th and Bailey.",
+  "type": "object",
+  "required": ["metadata", "workload", "scores", "recommendation"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["framework_version", "assessment_date", "assessed_by"],
+      "properties": {
+        "framework_version": { "type": "string", "example": "1.0.0" },
+        "assessment_date": { "type": "string", "format": "date" },
+        "assessed_by": { "type": "string" },
+        "organisation": { "type": "string" },
+        "sector": {
+          "type": "string",
+          "enum": ["healthcare", "legal", "energy", "financial", "logistics", "nonprofit", "property", "education", "other"]
+        }
+      }
+    },
+    "workload": {
+      "type": "object",
+      "required": ["name", "type", "current_placement"],
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["application", "database", "service", "dataset", "ai_workload", "ot_iot"]
+        },
+        "owner": { "type": "string" },
+        "current_placement": {
+          "type": "string",
+          "enum": ["public_cloud", "private_cloud", "on_premises", "colocation", "edge", "hybrid"]
+        },
+        "cloud_provider": {
+          "type": "string",
+          "description": "If current placement is public cloud, specify provider",
+          "enum": ["aws", "azure", "gcp", "other", "not_applicable"]
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "required": ["cost_gravity", "latency_tolerance", "compliance_sovereignty", "ai_infrastructure_fit", "vendor_lockin_risk"],
+      "properties": {
+        "cost_gravity": {
+          "type": "object",
+          "required": ["score"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "weight": { "type": "number", "const": 0.25 },
+            "notes": { "type": "string" },
+            "tco_cloud_3yr": { "type": "number", "description": "3-year TCO estimate for cloud placement in USD" },
+            "tco_onprem_3yr": { "type": "number", "description": "3-year TCO estimate for on-premises placement in USD" }
+          }
+        },
+        "latency_tolerance": {
+          "type": "object",
+          "required": ["score"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "weight": { "type": "number", "const": 0.20 },
+            "latency_requirement_ms": { "type": "number", "description": "Maximum acceptable latency in milliseconds" },
+            "notes": { "type": "string" }
+          }
+        },
+        "compliance_sovereignty": {
+          "type": "object",
+          "required": ["score"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "weight": { "type": "number", "const": 0.25 },
+            "hard_override": {
+              "type": "boolean",
+              "description": "True if score is 1 — compliance requirement mandates on-premises/sovereign placement regardless of composite score"
+            },
+            "applicable_regulations": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["HIPAA", "PCI-DSS", "SOX", "GLBA", "NERC_CIP", "FERPA", "GDPR", "state_data_residency", "contractual_residency", "classified", "other"]
+              }
+            },
+            "notes": { "type": "string" }
+          }
+        },
+        "ai_infrastructure_fit": {
+          "type": "object",
+          "required": ["score"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "weight": { "type": "number", "const": 0.15 },
+            "has_ai_component": { "type": "boolean" },
+            "ai_tools": { "type": "array", "items": { "type": "string" } },
+            "data_classification": {
+              "type": "string",
+              "enum": ["public", "internal", "confidential", "restricted", "not_applicable"]
+            },
+            "vendor_terms_reviewed": { "type": "boolean" },
+            "notes": { "type": "string" }
+          }
+        },
+        "vendor_lockin_risk": {
+          "type": "object",
+          "required": ["score"],
+          "properties": {
+            "score": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "weight": { "type": "number", "const": 0.15 },
+            "vmware_exposure": { "type": "boolean" },
+            "broadcom_licensing_affected": { "type": "boolean" },
+            "proprietary_data_formats": { "type": "boolean" },
+            "portability_clause_in_contract": { "type": "boolean" },
+            "notes": { "type": "string" }
+          }
+        }
+      }
+    },
+    "composite_score": {
+      "type": "number",
+      "minimum": 1.0,
+      "maximum": 5.0,
+      "description": "Weighted composite score calculated from all five dimensions"
+    },
+    "recommendation": {
+      "type": "object",
+      "required": ["placement", "rationale"],
+      "properties": {
+        "placement": {
+          "type": "string",
+          "enum": ["public_cloud", "private_cloud", "colocation", "on_premises", "edge", "hybrid"]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"],
+          "description": "Confidence level in recommendation based on quality of data available"
+        },
+        "hard_override_applied": {
+          "type": "boolean",
+          "description": "True if compliance dimension score of 1 overrode composite score"
+        },
+        "rationale": { "type": "string" },
+        "risks": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "next_steps": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "review_date": { "type": "string", "format": "date" },
+        "adr_reference": { "type": "string", "description": "Reference to the Architecture Decision Record document" }
+      }
+    }
+  }
+}
