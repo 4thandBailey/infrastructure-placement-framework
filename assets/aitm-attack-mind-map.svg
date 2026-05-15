@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="960" height="760"
+     viewBox="0 0 960 760"
+     role="img"
+     aria-labelledby="svg-title svg-desc"
+     font-family="'DM Sans', 'Segoe UI', Arial, sans-serif">
+
+  <title id="svg-title">AiTM Phishing Attack — Mind Map</title>
+  <desc id="svg-desc">Three-branch mind map showing the AiTM phishing attack chain (credential spray, PowerShell probing, session token capture, persistence), the defensive controls that address each phase (FIDO2 MFA, Token Protection, Safe Links, Identity Protection), and the post-compromise remediation sequence (remove MFA devices, reset password, invalidate tokens, audit mailbox, provision new account). Derived from a confirmed Microsoft 365 account compromise. All identifying details anonymized. Infrastructure Placement Framework — Module 04, by 4th and Bailey.</desc>
+
+  <defs>
+    <!-- Colors match 4th and Bailey HTML template exactly -->
+    <!-- --blue: #0C447C  --blue-mid: #185FA5  --blue-light: #E6F1FB  --blue-border: #B5D4F4 -->
+    <!-- --red: #E24B4A   --red-light: #FCEBEB  --red-dark: #791F1F -->
+    <!-- --amber: #BA7517  --amber-light: #FAEEDA  --amber-dark: #633806 -->
+    <!-- --green: #0F6E56  --green-light: #E1F5EE  --green-dark: #085041 -->
+    <!-- --gray-bg: #F2F1ED  --gray-border: #E0DFD8  --text-primary: #1a1a1a  --text-secondary: #5c5c5c -->
+
+    <marker id="arr-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#993C1D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#185FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ── PAGE BACKGROUND ── -->
+  <rect width="960" height="760" fill="#F2F1ED"/>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- HEADER BAND                                               -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="960" height="64" fill="#0C447C"/>
+  <text x="36" y="22" font-size="10" font-weight="500" fill="rgba(255,255,255,0.55)"
+        letter-spacing="0.1em" text-transform="uppercase"
+        style="text-transform:uppercase;letter-spacing:0.1em">
+    INFRASTRUCTURE PLACEMENT FRAMEWORK · MODULE 04 — CYBER RESILIENCE
+  </text>
+  <text x="36" y="46" font-size="20" font-weight="600" fill="#ffffff"
+        font-family="'Inter', 'DM Sans', Arial, sans-serif">
+    AiTM Phishing Attack — Mind Map
+  </text>
+  <text x="924" y="46" font-size="11" fill="rgba(255,255,255,0.55)" text-anchor="end">
+    Anonymized case study · May 2026
+  </text>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- ROOT NODE                                                 -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <rect x="354" y="88" width="252" height="52" rx="10"
+        fill="#0C447C" stroke="#185FA5" stroke-width="1"/>
+  <text x="480" y="108" font-size="13" font-weight="600" fill="#ffffff"
+        text-anchor="middle" dominant-baseline="central">AiTM phishing attack</text>
+  <text x="480" y="126" font-size="11" fill="rgba(255,255,255,0.65)"
+        text-anchor="middle" dominant-baseline="central">adversary-in-the-middle</text>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- BRANCH 1 — ATTACK CHAIN  (red / coral palette)           -->
+  <!-- Root → Branch header                                      -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <path d="M 354 114 L 200 114 L 200 168" fill="none" stroke="#993C1D" stroke-width="1.5" marker-end="url(#arr-red)"/>
+
+  <!-- Branch 1 header -->
+  <rect x="100" y="168" width="200" height="48" rx="8"
+        fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+  <text x="200" y="186" font-size="12" font-weight="600" fill="#712B13"
+        text-anchor="middle" dominant-baseline="central">Attack chain</text>
+  <text x="200" y="204" font-size="10" fill="#993C1D"
+        text-anchor="middle" dominant-baseline="central">3 phases + persistence</text>
+
+  <!-- Spine line for attack chain -->
+  <line x1="200" y1="216" x2="200" y2="610" stroke="#E0DFD8" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Phase 1 -->
+  <path d="M 200 252 L 120 252" fill="none" stroke="#993C1D" stroke-width="0.75" marker-end="url(#arr-red)"/>
+  <rect x="20" y="230" width="200" height="56" rx="8"
+        fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+  <text x="120" y="250" font-size="12" font-weight="600" fill="#791F1F"
+        text-anchor="middle" dominant-baseline="central">Phase 1 — credential spray</text>
+  <text x="120" y="268" font-size="10" fill="#993C1D"
+        text-anchor="middle" dominant-baseline="central">96 attempts · ASN rotation · error 50053</text>
+
+  <!-- Phase 2 -->
+  <path d="M 200 352 L 120 352" fill="none" stroke="#993C1D" stroke-width="0.75" marker-end="url(#arr-red)"/>
+  <rect x="20" y="330" width="200" height="56" rx="8"
+        fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+  <text x="120" y="350" font-size="12" font-weight="600" fill="#791F1F"
+        text-anchor="middle" dominant-baseline="central">Phase 2 — PowerShell probe</text>
+  <text x="120" y="368" font-size="10" fill="#993C1D"
+        text-anchor="middle" dominant-baseline="central">Directory-level access attempt</text>
+
+  <!-- Phase 3 -->
+  <path d="M 200 452 L 120 452" fill="none" stroke="#993C1D" stroke-width="0.75" marker-end="url(#arr-red)"/>
+  <rect x="20" y="430" width="200" height="56" rx="8"
+        fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+  <text x="120" y="450" font-size="12" font-weight="600" fill="#791F1F"
+        text-anchor="middle" dominant-baseline="central">Phase 3 — AiTM breach</text>
+  <text x="120" y="468" font-size="10" fill="#993C1D"
+        text-anchor="middle" dominant-baseline="central">Session token captured · MFA bypassed</text>
+
+  <!-- Persistence -->
+  <path d="M 200 552 L 120 552" fill="none" stroke="#993C1D" stroke-width="0.75" marker-end="url(#arr-red)"/>
+  <rect x="20" y="530" width="200" height="56" rx="8"
+        fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+  <text x="120" y="550" font-size="12" font-weight="600" fill="#791F1F"
+        text-anchor="middle" dominant-baseline="central">Persistence</text>
+  <text x="120" y="568" font-size="10" fill="#993C1D"
+        text-anchor="middle" dominant-baseline="central">Rogue MFA device + inbox rule "."</text>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- BRANCH 2 — DEFENSIVE CONTROLS  (green palette)           -->
+  <!-- Root → Branch header                                      -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <path d="M 606 114 L 760 114 L 760 168" fill="none" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr-green)"/>
+
+  <!-- Branch 2 header -->
+  <rect x="660" y="168" width="200" height="48" rx="8"
+        fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+  <text x="760" y="186" font-size="12" font-weight="600" fill="#085041"
+        text-anchor="middle" dominant-baseline="central">Defensive controls</text>
+  <text x="760" y="204" font-size="10" fill="#0F6E56"
+        text-anchor="middle" dominant-baseline="central">mapped to each phase</text>
+
+  <!-- Spine line for controls -->
+  <line x1="760" y1="216" x2="760" y2="610" stroke="#E0DFD8" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Control 1 — FIDO2 -->
+  <path d="M 760 252 L 840 252" fill="none" stroke="#0F6E56" stroke-width="0.75" marker-end="url(#arr-green)"/>
+  <rect x="740" y="230" width="200" height="56" rx="8"
+        fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+  <text x="840" y="250" font-size="12" font-weight="600" fill="#085041"
+        text-anchor="middle" dominant-baseline="central">FIDO2 / phishing-resistant MFA</text>
+  <text x="840" y="268" font-size="10" fill="#0F6E56"
+        text-anchor="middle" dominant-baseline="central">Key refuses wrong domain · defeats Phase 3</text>
+
+  <!-- Control 2 — Token Protection -->
+  <path d="M 760 352 L 840 352" fill="none" stroke="#0F6E56" stroke-width="0.75" marker-end="url(#arr-green)"/>
+  <rect x="740" y="330" width="200" height="56" rx="8"
+        fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+  <text x="840" y="350" font-size="12" font-weight="600" fill="#085041"
+        text-anchor="middle" dominant-baseline="central">Token Protection (CA policy)</text>
+  <text x="840" y="368" font-size="10" fill="#0F6E56"
+        text-anchor="middle" dominant-baseline="central">Binds token to device · blocks replay</text>
+
+  <!-- Control 3 — Safe Links -->
+  <path d="M 760 452 L 840 452" fill="none" stroke="#0F6E56" stroke-width="0.75" marker-end="url(#arr-green)"/>
+  <rect x="740" y="430" width="200" height="56" rx="8"
+        fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+  <text x="840" y="450" font-size="12" font-weight="600" fill="#085041"
+        text-anchor="middle" dominant-baseline="central">Defender — Safe Links / Attachments</text>
+  <text x="840" y="468" font-size="10" fill="#0F6E56"
+        text-anchor="middle" dominant-baseline="central">Intercepts delivery before click</text>
+
+  <!-- Control 4 — Identity Protection -->
+  <path d="M 760 552 L 840 552" fill="none" stroke="#0F6E56" stroke-width="0.75" marker-end="url(#arr-green)"/>
+  <rect x="740" y="530" width="200" height="56" rx="8"
+        fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+  <text x="840" y="550" font-size="12" font-weight="600" fill="#085041"
+        text-anchor="middle" dominant-baseline="central">Identity Protection (risk CA)</text>
+  <text x="840" y="568" font-size="10" fill="#0F6E56"
+        text-anchor="middle" dominant-baseline="central">Blocks high-risk sign-ins automatically</text>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- PHASE LABELS connecting attack ↔ controls                 -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- Horizontal dashed connectors: Phase → matching control -->
+  <line x1="220" y1="258" x2="740" y2="258" stroke="#E0DFD8" stroke-width="0.75" stroke-dasharray="4 4"/>
+  <line x1="220" y1="358" x2="740" y2="358" stroke="#E0DFD8" stroke-width="0.75" stroke-dasharray="4 4"/>
+  <line x1="220" y1="458" x2="740" y2="458" stroke="#E0DFD8" stroke-width="0.75" stroke-dasharray="4 4"/>
+  <line x1="220" y1="558" x2="740" y2="558" stroke="#E0DFD8" stroke-width="0.75" stroke-dasharray="4 4"/>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- CENTER COLUMN — ROOT DETAIL + REMEDIATION BAND           -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+
+  <!-- Vertical spine from root to remediation -->
+  <line x1="480" y1="140" x2="480" y2="628" stroke="#B5D4F4" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- MFA bypassed callout — center -->
+  <rect x="358" y="220" width="244" height="52" rx="8"
+        fill="#ffffff" stroke="#E0DFD8" stroke-width="0.75"/>
+  <text x="480" y="238" font-size="11" font-weight="600" fill="#1a1a1a"
+        text-anchor="middle" dominant-baseline="central">Why standard MFA fails</text>
+  <text x="480" y="255" font-size="10" fill="#5c5c5c"
+        text-anchor="middle" dominant-baseline="central">Token captured in real time via proxy</text>
+
+  <!-- What AiTM captures table — center -->
+  <rect x="340" y="292" width="280" height="116" rx="8"
+        fill="#ffffff" stroke="#E0DFD8" stroke-width="0.75"/>
+  <text x="480" y="312" font-size="11" font-weight="600" fill="#1a1a1a"
+        text-anchor="middle" dominant-baseline="central">What AiTM captures</text>
+  <!-- Row 1 -->
+  <line x1="340" y1="324" x2="620" y2="324" stroke="#E0DFD8" stroke-width="0.5"/>
+  <text x="356" y="338" font-size="10" fill="#5c5c5c" dominant-baseline="central">Password</text>
+  <text x="614" y="338" font-size="10" fill="#5c5c5c" text-anchor="end" dominant-baseline="central">Credential reuse across services</text>
+  <!-- Row 2 -->
+  <line x1="340" y1="350" x2="620" y2="350" stroke="#E0DFD8" stroke-width="0.5"/>
+  <text x="356" y="364" font-size="10" fill="#5c5c5c" dominant-baseline="central">MFA approval</text>
+  <text x="614" y="364" font-size="10" fill="#5c5c5c" text-anchor="end" dominant-baseline="central">Full authenticated session</text>
+  <!-- Row 3 -->
+  <line x1="340" y1="376" x2="620" y2="376" stroke="#E0DFD8" stroke-width="0.5"/>
+  <text x="356" y="392" font-size="10" fill="#5c5c5c" dominant-baseline="central">Session token (cookie)</text>
+  <text x="614" y="392" font-size="10" fill="#5c5c5c" text-anchor="end" dominant-baseline="central">Replay without further MFA</text>
+
+  <!-- Known toolkits label -->
+  <rect x="358" y="428" width="244" height="52" rx="8"
+        fill="#FAEEDA" stroke="#BA7517" stroke-width="0.75"/>
+  <text x="480" y="446" font-size="11" font-weight="600" fill="#633806"
+        text-anchor="middle" dominant-baseline="central">Known toolkits</text>
+  <text x="480" y="463" font-size="10" fill="#854F0B"
+        text-anchor="middle" dominant-baseline="central">Evilginx · Modlishka · variants</text>
+
+  <!-- Sign-in log indicator -->
+  <rect x="340" y="500" width="280" height="52" rx="8"
+        fill="#ffffff" stroke="#E0DFD8" stroke-width="0.75"/>
+  <text x="480" y="518" font-size="11" font-weight="600" fill="#1a1a1a"
+        text-anchor="middle" dominant-baseline="central">Key sign-in log indicator</text>
+  <text x="480" y="535" font-size="10" fill="#5c5c5c"
+        text-anchor="middle" dominant-baseline="central">"MFA satisfied by claim in the token"</text>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- REMEDIATION BAND (blue) — bottom                         -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <path d="M 480 628 L 480 648" fill="none" stroke="#185FA5" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+
+  <!-- Remediation header -->
+  <rect x="330" y="648" width="300" height="48" rx="8"
+        fill="#0C447C" stroke="#185FA5" stroke-width="1"/>
+  <text x="480" y="666" font-size="12" font-weight="600" fill="#ffffff"
+        text-anchor="middle" dominant-baseline="central">Post-compromise remediation</text>
+  <text x="480" y="684" font-size="10" fill="rgba(255,255,255,0.65)"
+        text-anchor="middle" dominant-baseline="central">execute all steps in a single session</text>
+
+  <!-- 5 remediation step pills -->
+  <!-- Step 1 -->
+  <rect x="20" y="716" width="158" height="32" rx="16"
+        fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="99" y="732" font-size="10" font-weight="600" fill="#0C447C"
+        text-anchor="middle" dominant-baseline="central">1. Remove MFA devices</text>
+
+  <!-- Step 2 -->
+  <rect x="194" y="716" width="158" height="32" rx="16"
+        fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="273" y="732" font-size="10" font-weight="600" fill="#0C447C"
+        text-anchor="middle" dominant-baseline="central">2. Reset password</text>
+
+  <!-- Step 3 -->
+  <rect x="368" y="716" width="158" height="32" rx="16"
+        fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="447" y="732" font-size="10" font-weight="600" fill="#0C447C"
+        text-anchor="middle" dominant-baseline="central">3. Invalidate tokens</text>
+
+  <!-- Step 4 -->
+  <rect x="542" y="716" width="158" height="32" rx="16"
+        fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="621" y="732" font-size="10" font-weight="600" fill="#0C447C"
+        text-anchor="middle" dominant-baseline="central">4. Audit mailbox</text>
+
+  <!-- Step 5 -->
+  <rect x="716" y="716" width="200" height="32" rx="16"
+        fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="816" y="732" font-size="10" font-weight="600" fill="#0C447C"
+        text-anchor="middle" dominant-baseline="central">5. New account if deep compromise</text>
+
+  <!-- Connector lines from remediation header to pills -->
+  <line x1="370" y1="696" x2="99" y2="716" stroke="#B5D4F4" stroke-width="0.75"/>
+  <line x1="420" y1="696" x2="273" y2="716" stroke="#B5D4F4" stroke-width="0.75"/>
+  <line x1="480" y1="696" x2="447" y2="716" stroke="#B5D4F4" stroke-width="0.75"/>
+  <line x1="540" y1="696" x2="621" y2="716" stroke="#B5D4F4" stroke-width="0.75"/>
+  <line x1="590" y1="696" x2="816" y2="716" stroke="#B5D4F4" stroke-width="0.75"/>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- LEGEND                                                    -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <rect x="356" y="572" width="248" height="44" rx="6"
+        fill="#ffffff" stroke="#E0DFD8" stroke-width="0.75"/>
+  <rect x="368" y="585" width="12" height="12" rx="2" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.75"/>
+  <text x="386" y="591" font-size="10" fill="#5c5c5c" dominant-baseline="central">Attack chain</text>
+  <rect x="448" y="585" width="12" height="12" rx="2" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.75"/>
+  <text x="466" y="591" font-size="10" fill="#5c5c5c" dominant-baseline="central">Controls</text>
+  <rect x="520" y="585" width="12" height="12" rx="2" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="538" y="591" font-size="10" fill="#5c5c5c" dominant-baseline="central">Remediation</text>
+  <line x1="368" y1="606" x2="380" y2="606" stroke="#E0DFD8" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <text x="386" y="606" font-size="10" fill="#5c5c5c" dominant-baseline="central">Phase-to-control mapping</text>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- FOOTER                                                    -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <line x1="0" y1="750" x2="960" y2="750" stroke="#E0DFD8" stroke-width="0.75"/>
+  <text x="36" y="756" font-size="10" fill="#8a8a8a" dominant-baseline="central">
+    Infrastructure Placement Framework — Module 04 · 4th and Bailey | Information Technology Consulting · Houston, TX
+  </text>
+  <text x="924" y="756" font-size="10" fill="#8a8a8a" text-anchor="end" dominant-baseline="central">
+    github.com/4thandBailey/infrastructure-placement-framework · CC BY 4.0
+  </text>
+
+</svg>
