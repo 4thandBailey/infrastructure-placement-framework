@@ -11,35 +11,35 @@
 
   <!-- Root documentation -->
   <url>
-    <loc>https://framework.4thandbailey.com/METHODOLOGY</loc>
+    <loc>https://framework.4thandbailey.com/METHODOLOGY.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/CHANGELOG</loc>
+    <loc>https://framework.4thandbailey.com/CHANGELOG.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/CONTRIBUTING</loc>
+    <loc>https://framework.4thandbailey.com/CONTRIBUTING.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/LICENSE</loc>
+    <loc>https://framework.4thandbailey.com/LICENSE.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/SECURITY</loc>
+    <loc>https://framework.4thandbailey.com/SECURITY.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
@@ -47,21 +47,21 @@
 
   <!-- Templates -->
   <url>
-    <loc>https://framework.4thandbailey.com/templates/assessment-request</loc>
+    <loc>https://framework.4thandbailey.com/templates/assessment-request.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/templates/quarterly-review</loc>
+    <loc>https://framework.4thandbailey.com/templates/quarterly-review.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/templates/workload-adr</loc>
+    <loc>https://framework.4thandbailey.com/templates/workload-adr.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -76,14 +76,14 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/01-workload-placement/assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/01-workload-placement/assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/01-workload-placement/decision-tree</loc>
+    <loc>https://framework.4thandbailey.com/modules/01-workload-placement/decision-tree.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -98,14 +98,14 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/02-repatriation-readiness/assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/02-repatriation-readiness/assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/02-repatriation-readiness/vendor-risk-scorecard</loc>
+    <loc>https://framework.4thandbailey.com/modules/02-repatriation-readiness/vendor-risk-scorecard.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -120,14 +120,14 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/03-hybrid-optimization/assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/03-hybrid-optimization/assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/03-hybrid-optimization/governance-checklist</loc>
+    <loc>https://framework.4thandbailey.com/modules/03-hybrid-optimization/governance-checklist.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -142,42 +142,42 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/aitm-credential-attack-vectors</loc>
+    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/aitm-credential-attack-vectors.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/business-continuity-assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/business-continuity-assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/crowdstrike-lessons-checklist</loc>
+    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/crowdstrike-lessons-checklist.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/data-protection-assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/data-protection-assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/third-party-risk-scorecard</loc>
+    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/third-party-risk-scorecard.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/vendor-exit-plan-template</loc>
+    <loc>https://framework.4thandbailey.com/modules/04-cyber-resilience/vendor-exit-plan-template.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -192,42 +192,42 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/acceptable-use-policy-template</loc>
+    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/acceptable-use-policy-template.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/ai-vendor-evaluation-rubric</loc>
+    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/ai-vendor-evaluation-rubric.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/nist-ai-rmf-assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/nist-ai-rmf-assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/nist-crosswalk</loc>
+    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/nist-crosswalk.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/shadow-ai-audit-checklist</loc>
+    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/shadow-ai-audit-checklist.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/smb-ai-readiness-programme</loc>
+    <loc>https://framework.4thandbailey.com/modules/05-ai-governance/smb-ai-readiness-programme.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -242,28 +242,28 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/06-device-byod/ai-on-byod-guidance</loc>
+    <loc>https://framework.4thandbailey.com/modules/06-device-byod/ai-on-byod-guidance.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/06-device-byod/byod-security-policy-template</loc>
+    <loc>https://framework.4thandbailey.com/modules/06-device-byod/byod-security-policy-template.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/06-device-byod/device-model-matrix</loc>
+    <loc>https://framework.4thandbailey.com/modules/06-device-byod/device-model-matrix.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/06-device-byod/mdm-platform-selection</loc>
+    <loc>https://framework.4thandbailey.com/modules/06-device-byod/mdm-platform-selection.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -278,35 +278,35 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/dual-stack-rationalisation</loc>
+    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/dual-stack-rationalisation.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/google-workspace-governance-baseline</loc>
+    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/google-workspace-governance-baseline.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/licence-optimisation-guide</loc>
+    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/licence-optimisation-guide.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/m365-governance-baseline</loc>
+    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/m365-governance-baseline.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/platform-selection-assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/07-collaboration-platform/platform-selection-assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -321,63 +321,63 @@
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/backup-validation-checklist</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/backup-validation-checklist.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/bcdr-assessment</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/bcdr-assessment.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/bcp-template</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/bcp-template.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/breach-notification-guide</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/breach-notification-guide.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/business-impact-analysis</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/business-impact-analysis.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/drp-template</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/drp-template.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/ransomware-playbook</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/ransomware-playbook.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/tabletop-exercise-guide</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/tabletop-exercise-guide.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://framework.4thandbailey.com/modules/08-bcdr/vendor-failure-playbook</loc>
+    <loc>https://framework.4thandbailey.com/modules/08-bcdr/vendor-failure-playbook.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
